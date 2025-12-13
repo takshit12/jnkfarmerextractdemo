@@ -1,0 +1,147 @@
+# J&K AgriStack Land Record Digitization - Configuration
+# =====================================================
+
+# Application Settings
+app:
+  name: "JK-AgriStack-LandRecords"
+  version: "0.1.0"
+  debug: false
+
+# PDF Extraction Settings
+extraction:
+  # Camelot settings
+  camelot:
+    flavor: "lattice"           # "lattice" for bordered tables, "stream" for borderless
+    accuracy_threshold: 75      # Minimum accuracy to accept extraction
+    line_scale: 40              # Adjust for line thickness in Jamabandi docs
+    copy_text: ['v']            # Copy text vertically in spanning cells
+    strip_text: '\n'
+    
+  # pdfplumber settings (fallback)
+  pdfplumber:
+    enabled: true               # Enable fallback
+    vertical_strategy: "explicit"
+    horizontal_strategy: "text"
+    snap_tolerance: 5
+    join_tolerance: 3
+    # Column x-coordinates for 12 Jamabandi columns (calibrate per document type)
+    explicit_vertical_lines: [50, 100, 150, 220, 350, 420, 480, 520, 560, 600, 680, 750]
+
+# Jamabandi Parsing Settings
+parsing:
+  # Column 5 (Nam Kashtakar) parser settings
+  column5:
+    # Keyword mappings for parsing
+    role_markers:
+      - kasht        # cultivator
+      - malik        # owner
+      
+    parentage_markers:
+      pisar: "S/o"
+      pisaran: "S/o"
+      dukhtar: "D/o"
+      dukhtaran: "D/o"
+      zoja: "W/o"
+      byuh: "Widow/o"
+      
+    caste_marker: "kaum"
+    
+    residence_markers:
+      - sakin
+      - sakindeh
+      
+    ownership_types:
+      - morosi
+      - gair morosi
+      - alati
+      
+  # Khasra splitter settings
+  khasra:
+    sum_row_marker: "kitta"     # Identifies aggregation rows
+    number_pattern: '(\d+)(?:/(\d+))?'  # hal or hal/sabik format
+    
+# LLM Settings
+llm:
+  enabled: true
+  provider: "openai"            # "openai" or "anthropic"
+  
+  openai:
+    model: "gpt-4o"
+    max_tokens: 2000
+    temperature: 0
+    
+  anthropic:
+    model: "claude-3-5-sonnet-20241022"
+    max_tokens: 2000
+    temperature: 0
+    
+  # Confidence threshold for LLM fallback
+  confidence_threshold: 0.7     # Use LLM if rule-based confidence < this
+
+# Validation Settings
+validation:
+  # Pydantic strict mode
+  strict: false
+  
+  # Required fields (extraction fails if missing)
+  required_fields:
+    - number_khata
+    - cultivator_name
+    
+  # Confidence settings
+  confidence:
+    high_threshold: 0.9
+    medium_threshold: 0.7
+    flag_below: 0.8             # Flag records with confidence below this
+
+# Output Settings
+output:
+  format: "xlsx"                # Output format
+  
+  # Excel formatting
+  excel:
+    include_confidence: true
+    highlight_low_confidence: true
+    highlight_color: "FFFF00"   # Yellow for low confidence rows
+    
+  # Column mapping to LRIS schema
+  columns:
+    - number_khevat
+    - number_khata
+    - nam_tarf_ya_patti
+    - nam_malik_meh_ahval
+    - cultivator_name
+    - cultivator_parentage
+    - cultivator_caste
+    - cultivator_village
+    - cultivator_remarks
+    - vasayil_abapashi
+    - khasra_hal
+    - khasra_sabik
+    - area_kanal
+    - area_marla
+    - kisam_zamin
+    - lagan_details
+    - mutalba_details
+    - havala_intakal
+    - kaifiyat
+    - extraction_confidence
+    - needs_review
+
+# Logging Settings
+logging:
+  level: "INFO"                 # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/extraction.log"
+
+# Batch Processing Settings
+batch:
+  max_workers: 4                # Parallel processing workers
+  batch_size: 10                # Pages per batch
+  retry_attempts: 3             # Retry failed extractions
+  
+# Demo UI Settings (Streamlit)
+ui:
+  title: "🏛️ J&K Land Record Digitization"
+  subtitle: "AgriStack - Jamabandi to Excel Converter"
+  max_upload_size_mb: 50
