@@ -29,7 +29,7 @@ from typing import Optional, Tuple, List, Dict
 from dataclasses import dataclass
 import logging
 
-from validators.models import CultivatorInfo, ParentageType, OwnershipType, ExtractionMethod
+from models import CultivatorInfo, ParentageType, OwnershipType, ExtractionMethod
 
 logger = logging.getLogger(__name__)
 

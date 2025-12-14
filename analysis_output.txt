@@ -1,0 +1,66 @@
+Analyzing: c:\jnkDocExtractor\jnkfarmerextractdemo\TransliteradVersion_Village Gujral - Jamabandi (1).pdf
+
+--- Camelot Extraction (Lattice) ---
+Found 1 tables
+Table Shape: (15, 16)
+
+First 5 rows:
+         0                                                  1                    2                                   3                                                  4                    5       6      7                          8      9                  10                                                 11                                                 12                                        13             14              15
+0        12                                                 11                                                       10                                                  9                    8                                         7                         6                                                  5                                                  4                                         3              2               1
+1  kaifiyat                                     havala intakal                       mutalba\nb tashari\nmaal va\nsewai  lagan jo\nmujariya ada\nkarta hai meh\nshara v...  raqba bakiyad kisam                 number khasra v nam\nkhet         vasayil\nabapashi                            nam kashtakar meh ahval                                nam malik meh ahval  nam tarf\nya patti\nmeh nam\nnumber\ndar  number\nkhata  number\nkhevat
+2                                                        kisam               number                                                                                                 kisam zamin  marala  kanal                        hal  sabik                                                                                                                                                                                                  
+3            hembba\nnama\nhembba\nnama\nvarasat\nwasit mor...  1343\n795\n795\n581                      0 maal\n0 seva                                     0 maal\n0 seva           gora nahri      16      0                        156                            kasht sahid v singh pisar attar singh\nkaum su...  deen mohammed 20 kanal 8 marala 0 marabba foot...                                                        1               1
+4                                                                                                                                                           0 maal\n0 seva    gora nahri\nnahri    4\n8   1\n1                   162\n166                            kasht sandhu singh pisar sain kaum\nrakwal sak...                                                                                                           2                
+
+Column Analysis:
+Col 0: Header='12' | Sample='kaifiyat'
+Col 1: Header='11' | Sample='havala intakal'
+Col 2: Header='' | Sample=''
+Col 3: Header='10' | Sample='mutalba
+b tashari
+maal va
+sewai'
+Col 4: Header='9' | Sample='lagan jo
+mujariya ada
+karta hai meh
+shara va tadad'
+Col 5: Header='8' | Sample='raqba bakiyad kisam'
+Col 6: Header='' | Sample=''
+Col 7: Header='' | Sample=''
+Col 8: Header='7' | Sample='number khasra v nam
+khet'
+Col 9: Header='' | Sample=''
+Col 10: Header='6' | Sample='vasayil
+abapashi'
+Col 11: Header='5' | Sample='nam kashtakar meh ahval'
+Col 12: Header='4' | Sample='nam malik meh ahval'
+Col 13: Header='3' | Sample='nam tarf
+ya patti
+meh nam
+number
+dar'
+Col 14: Header='2' | Sample='number
+khata'
+Col 15: Header='1' | Sample='number
+khevat'
+
+--- pdfplumber Extraction ---
+Page Text Preview (first 500 chars):
+2017-18 : sal Jammu :zla Jammu West :thsil Gujral :babata mouza jamabandi
+12 11 10 9 8 7 6 5 4 3 2 1
+havala intakal b m t u a t s a h l a b r a i mu l j a a g r a iy n a j o ada raqba bakiyad kisam number k k h h a e s t ra v nam vasayil n y a a m p a ta tt r i f number number
+kaifiyat nam kashtakar meh ahval nam malik meh ahval meh nam
+maal va karta hai meh abapashi khata khevat
+number
+sewai shara va tadad
+kisam number kisam zamin marala kanal hal sabik dar
+hembba 1343 0 maal gora nahri 16 0 15
+
+Table Extraction:
+Found 1 tables
+         0                                                  1                    2                                   3                                                  4                    5       6      7                          8      9                  10                                                 11                                                 12                                        13             14              15
+0        12                                                 11                 None                                  10                                                  9                    8    None   None                          7   None                  6                                                  5                                                  4                                         3              2               1
+1  kaifiyat                                     havala intakal                 None  mutalba\nb tashari\nmaal va\nsewai  lagan jo\nmujariya ada\nkarta hai meh\nshara v...  raqba bakiyad kisam    None   None  number khasra v nam\nkhet   None  vasayil\nabapashi                            nam kashtakar meh ahval                                nam malik meh ahval  nam tarf\nya patti\nmeh nam\nnumber\ndar  number\nkhata  number\nkhevat
+2      None                                              kisam               number                                None                                               None          kisam zamin  marala  kanal                        hal  sabik               None                                               None                                               None                                      None           None            None
+3            hembba\nnama\nhembba\nnama\nvarasat\nwasit mor...  1343\n795\n795\n581                      0 maal\n0 seva                                     0 maal\n0 seva           gora nahri      16      0                        156                            kasht sahid v singh pisar attar singh\nkaum su...  deen mohammed 20 kanal 8 marala 0 marabba foot...                                                        1               1
+4      None                                               None                 None                                None                                     0 maal\n0 seva    gora nahri\nnahri    4\n8   1\n1                   162\n166                            kasht sandhu singh pisar sain kaum\nrakwal sak...                                               None                                      None              2            None
