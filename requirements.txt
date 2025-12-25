@@ -43,3 +43,6 @@ pydantic[email]>=2.0.0
 
 # Optional: For monitoring
 prometheus-client>=0.19.0
+
+# Deployment
+streamlit>=1.30.0
