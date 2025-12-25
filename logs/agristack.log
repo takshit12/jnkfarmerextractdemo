@@ -4163,3 +4163,1524 @@ marla
 2025-12-14 03:11:12,537 - src.main - INFO - process_table_page_97: count=1, mean=0.004s, min=0.004s, max=0.004s
 2025-12-14 03:11:12,537 - src.main - INFO - process_table_page_98: count=1, mean=0.003s, min=0.003s, max=0.003s
 2025-12-14 03:11:12,537 - src.main - INFO - process_table_page_99: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 21:40:29,855 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 21:40:29,856 - src.main - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 21:40:29,857 - src.main - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 21:40:34,312 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=48, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 21:40:34,318 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=162, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 21:40:34,321 - src.main - ERROR - Error processing row 12: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1217, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:11:11,771 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 22:11:11,772 - src.main - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 22:11:11,772 - src.main - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 22:11:12,437 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=48, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:11:12,440 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=162, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:11:12,441 - src.main - ERROR - Error processing row 12: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1217, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:11:59,194 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 22:11:59,198 - src.main - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 22:11:59,199 - src.main - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 22:12:00,223 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=48, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:12:00,226 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=162, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:12:00,228 - src.main - ERROR - Error processing row 12: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1217, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:15:12,878 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 22:15:12,878 - __main__ - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 22:15:12,879 - __main__ - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 22:15:12,879 - __main__ - INFO - Starting processing: TransliteradVersion_Village Gujral - Jamabandi (1).pdf
+2025-12-14 22:15:13,190 - __main__ - INFO - Village: Transliteradversion_Village Gujral - Jamabandi (1), District: Unknown
+2025-12-14 22:15:14,258 - __main__ - INFO - Extracted 1 tables
+2025-12-14 22:15:14,259 - __main__ - INFO - Processing page 1 (accuracy: 98.7%)
+2025-12-14 22:15:14,261 - __main__ - ERROR - Error processing row 3: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,262 - __main__ - ERROR - Error processing row 4: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,263 - __main__ - ERROR - Error processing row 5: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,263 - __main__ - ERROR - Error processing row 6: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,265 - __main__ - ERROR - Error processing row 7: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,266 - __main__ - ERROR - Error processing row 8: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,267 - __main__ - ERROR - Error processing row 9: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,267 - __main__ - ERROR - Error processing row 10: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,268 - __main__ - ERROR - Error processing row 11: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,269 - __main__ - ERROR - Error processing row 12: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,270 - __main__ - ERROR - Error processing row 13: 'Column5Parser' object has no attribute '_clean_text'
+2025-12-14 22:15:14,273 - __main__ - INFO - Extracted 0 records from page 1
+2025-12-14 22:15:14,274 - src.exporters.excel_exporter - INFO - Exporting 0 records to output\gujral_output_p1_fixed.xlsx
+2025-12-14 22:15:14,351 - src.exporters.excel_exporter - INFO - Successfully exported to output\gujral_output_p1_fixed.xlsx
+2025-12-14 22:15:14,352 - __main__ - INFO - ============================================================
+2025-12-14 22:15:14,353 - __main__ - INFO - Processing Complete
+2025-12-14 22:15:14,354 - __main__ - INFO -   Village: Transliteradversion_Village Gujral - Jamabandi (1)
+2025-12-14 22:15:14,354 - __main__ - INFO -   Records: 0
+2025-12-14 22:15:14,355 - __main__ - INFO -   Avg Confidence: 0.0%
+2025-12-14 22:15:14,356 - __main__ - INFO -   Needs Review: 0 (0.0%)
+2025-12-14 22:15:14,356 - __main__ - INFO -   Output: output\gujral_output_p1_fixed.xlsx
+2025-12-14 22:15:14,356 - __main__ - INFO - ============================================================
+2025-12-14 22:15:14,356 - __main__ - INFO - === Performance Summary ===
+2025-12-14 22:15:14,356 - __main__ - INFO - export_excel: count=1, mean=0.078s, min=0.078s, max=0.078s
+2025-12-14 22:15:14,358 - __main__ - INFO - extract_metadata: count=1, mean=0.311s, min=0.311s, max=0.311s
+2025-12-14 22:15:14,358 - __main__ - INFO - extract_tables: count=1, mean=1.069s, min=1.069s, max=1.069s
+2025-12-14 22:15:14,358 - __main__ - INFO - process_table_page_1: count=1, mean=0.015s, min=0.015s, max=0.015s
+2025-12-14 22:16:10,753 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 22:16:10,754 - __main__ - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 22:16:10,754 - __main__ - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 22:16:10,755 - __main__ - INFO - Starting processing: TransliteradVersion_Village Gujral - Jamabandi (1).pdf
+2025-12-14 22:16:11,280 - __main__ - INFO - Village: Transliteradversion_Village Gujral - Jamabandi (1), District: Unknown
+2025-12-14 22:16:13,214 - __main__ - INFO - Extracted 1 tables
+2025-12-14 22:16:13,214 - __main__ - INFO - Processing page 1 (accuracy: 98.7%)
+2025-12-14 22:16:13,216 - __main__ - ERROR - Error processing row 3: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,218 - __main__ - ERROR - Error processing row 4: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,219 - __main__ - ERROR - Error processing row 5: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,220 - __main__ - ERROR - Error processing row 6: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,221 - __main__ - ERROR - Error processing row 7: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,223 - __main__ - ERROR - Error processing row 8: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,224 - __main__ - ERROR - Error processing row 9: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,225 - __main__ - ERROR - Error processing row 10: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,227 - __main__ - ERROR - Error processing row 11: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,229 - __main__ - ERROR - Error processing row 12: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,230 - __main__ - ERROR - Error processing row 13: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:16:13,232 - __main__ - INFO - Extracted 0 records from page 1
+2025-12-14 22:16:13,234 - src.exporters.excel_exporter - INFO - Exporting 0 records to output\gujral_output_p1_fixed_v2.xlsx
+2025-12-14 22:16:13,342 - src.exporters.excel_exporter - INFO - Successfully exported to output\gujral_output_p1_fixed_v2.xlsx
+2025-12-14 22:16:13,343 - __main__ - INFO - ============================================================
+2025-12-14 22:16:13,343 - __main__ - INFO - Processing Complete
+2025-12-14 22:16:13,343 - __main__ - INFO -   Village: Transliteradversion_Village Gujral - Jamabandi (1)
+2025-12-14 22:16:13,344 - __main__ - INFO -   Records: 0
+2025-12-14 22:16:13,344 - __main__ - INFO -   Avg Confidence: 0.0%
+2025-12-14 22:16:13,345 - __main__ - INFO -   Needs Review: 0 (0.0%)
+2025-12-14 22:16:13,345 - __main__ - INFO -   Output: output\gujral_output_p1_fixed_v2.xlsx
+2025-12-14 22:16:13,345 - __main__ - INFO - ============================================================
+2025-12-14 22:16:13,347 - __main__ - INFO - === Performance Summary ===
+2025-12-14 22:16:13,347 - __main__ - INFO - export_excel: count=1, mean=0.110s, min=0.110s, max=0.110s
+2025-12-14 22:16:13,348 - __main__ - INFO - extract_metadata: count=1, mean=0.525s, min=0.525s, max=0.525s
+2025-12-14 22:16:13,348 - __main__ - INFO - extract_tables: count=1, mean=1.934s, min=1.934s, max=1.934s
+2025-12-14 22:16:13,349 - __main__ - INFO - process_table_page_1: count=1, mean=0.018s, min=0.018s, max=0.018s
+2025-12-14 22:17:12,658 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 22:17:12,659 - __main__ - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 22:17:12,659 - __main__ - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 22:17:12,660 - __main__ - INFO - Starting processing: TransliteradVersion_Village Gujral - Jamabandi (1).pdf
+2025-12-14 22:17:12,847 - __main__ - INFO - Village: Transliteradversion_Village Gujral - Jamabandi (1), District: Unknown
+2025-12-14 22:17:14,297 - __main__ - INFO - Extracted 1 tables
+2025-12-14 22:17:14,298 - __main__ - INFO - Processing page 1 (accuracy: 98.7%)
+2025-12-14 22:17:14,301 - __main__ - ERROR - Error processing row 3: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,302 - __main__ - ERROR - Error processing row 4: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,303 - __main__ - ERROR - Error processing row 5: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,304 - __main__ - ERROR - Error processing row 6: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,306 - __main__ - ERROR - Error processing row 7: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,307 - __main__ - ERROR - Error processing row 8: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,309 - __main__ - ERROR - Error processing row 9: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,310 - __main__ - ERROR - Error processing row 10: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,311 - __main__ - ERROR - Error processing row 11: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,312 - __main__ - ERROR - Error processing row 12: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,313 - __main__ - ERROR - Error processing row 13: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:14,316 - __main__ - INFO - Extracted 0 records from page 1
+2025-12-14 22:17:14,317 - src.exporters.excel_exporter - INFO - Exporting 0 records to output\gujral_output_p1_final.xlsx
+2025-12-14 22:17:14,403 - src.exporters.excel_exporter - INFO - Successfully exported to output\gujral_output_p1_final.xlsx
+2025-12-14 22:17:14,404 - __main__ - INFO - ============================================================
+2025-12-14 22:17:14,404 - __main__ - INFO - Processing Complete
+2025-12-14 22:17:14,405 - __main__ - INFO -   Village: Transliteradversion_Village Gujral - Jamabandi (1)
+2025-12-14 22:17:14,405 - __main__ - INFO -   Records: 0
+2025-12-14 22:17:14,406 - __main__ - INFO -   Avg Confidence: 0.0%
+2025-12-14 22:17:14,406 - __main__ - INFO -   Needs Review: 0 (0.0%)
+2025-12-14 22:17:14,406 - __main__ - INFO -   Output: output\gujral_output_p1_final.xlsx
+2025-12-14 22:17:14,407 - __main__ - INFO - ============================================================
+2025-12-14 22:17:14,407 - __main__ - INFO - === Performance Summary ===
+2025-12-14 22:17:14,408 - __main__ - INFO - export_excel: count=1, mean=0.087s, min=0.087s, max=0.087s
+2025-12-14 22:17:14,408 - __main__ - INFO - extract_metadata: count=1, mean=0.188s, min=0.188s, max=0.188s
+2025-12-14 22:17:14,408 - __main__ - INFO - extract_tables: count=1, mean=1.450s, min=1.450s, max=1.450s
+2025-12-14 22:17:14,409 - __main__ - INFO - process_table_page_1: count=1, mean=0.017s, min=0.017s, max=0.017s
+2025-12-14 22:17:55,346 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 22:17:55,347 - __main__ - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 22:17:55,347 - __main__ - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 22:17:55,348 - __main__ - INFO - Starting processing: TransliteradVersion_Village Gujral - Jamabandi (1).pdf
+2025-12-14 22:17:55,737 - __main__ - INFO - Village: Transliteradversion_Village Gujral - Jamabandi (1), District: Unknown
+2025-12-14 22:17:57,327 - __main__ - INFO - Extracted 1 tables
+2025-12-14 22:17:57,328 - __main__ - INFO - Processing page 1 (accuracy: 98.7%)
+2025-12-14 22:17:57,331 - __main__ - ERROR - Error processing row 3: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,332 - __main__ - ERROR - Error processing row 4: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,333 - __main__ - ERROR - Error processing row 5: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,333 - __main__ - ERROR - Error processing row 6: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,339 - __main__ - ERROR - Error processing row 7: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,340 - __main__ - ERROR - Error processing row 8: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,341 - __main__ - ERROR - Error processing row 9: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,341 - __main__ - ERROR - Error processing row 10: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,342 - __main__ - ERROR - Error processing row 11: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,342 - __main__ - ERROR - Error processing row 12: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,343 - __main__ - ERROR - Error processing row 13: type object 'ExtractionMethod' has no attribute 'RULE_BASED'
+2025-12-14 22:17:57,373 - __main__ - INFO - Extracted 0 records from page 1
+2025-12-14 22:17:57,384 - src.exporters.excel_exporter - INFO - Exporting 0 records to output\gujral_output_p1_debug.xlsx
+2025-12-14 22:17:57,906 - src.exporters.excel_exporter - INFO - Successfully exported to output\gujral_output_p1_debug.xlsx
+2025-12-14 22:17:57,906 - __main__ - INFO - ============================================================
+2025-12-14 22:17:57,907 - __main__ - INFO - Processing Complete
+2025-12-14 22:17:57,908 - __main__ - INFO -   Village: Transliteradversion_Village Gujral - Jamabandi (1)
+2025-12-14 22:17:57,908 - __main__ - INFO -   Records: 0
+2025-12-14 22:17:57,908 - __main__ - INFO -   Avg Confidence: 0.0%
+2025-12-14 22:17:57,910 - __main__ - INFO -   Needs Review: 0 (0.0%)
+2025-12-14 22:17:57,910 - __main__ - INFO -   Output: output\gujral_output_p1_debug.xlsx
+2025-12-14 22:17:57,911 - __main__ - INFO - ============================================================
+2025-12-14 22:17:57,911 - __main__ - INFO - === Performance Summary ===
+2025-12-14 22:17:57,911 - __main__ - INFO - export_excel: count=1, mean=0.523s, min=0.523s, max=0.523s
+2025-12-14 22:17:57,912 - __main__ - INFO - extract_metadata: count=1, mean=0.390s, min=0.390s, max=0.390s
+2025-12-14 22:17:57,912 - __main__ - INFO - extract_tables: count=1, mean=1.590s, min=1.590s, max=1.590s
+2025-12-14 22:17:57,912 - __main__ - INFO - process_table_page_1: count=1, mean=0.046s, min=0.046s, max=0.046s
+2025-12-14 22:19:41,924 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 22:19:41,927 - __main__ - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 22:19:41,927 - __main__ - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 22:19:41,928 - __main__ - INFO - Starting processing: TransliteradVersion_Village Gujral - Jamabandi (1).pdf
+2025-12-14 22:19:43,216 - __main__ - INFO - Village: Transliteradversion_Village Gujral - Jamabandi (1), District: Unknown
+2025-12-14 22:19:45,406 - __main__ - INFO - Extracted 1 tables
+2025-12-14 22:19:45,408 - __main__ - INFO - Processing page 1 (accuracy: 98.7%)
+2025-12-14 22:19:45,418 - __main__ - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=48, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:19:45,427 - __main__ - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=162, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:19:45,436 - __main__ - ERROR - Error processing row 12: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1217, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:19:45,442 - __main__ - INFO - Extracted 7 records from page 1
+2025-12-14 22:19:45,443 - src.exporters.excel_exporter - INFO - Exporting 7 records to output\gujral_output_p1_final_v2.xlsx
+2025-12-14 22:19:45,614 - src.exporters.excel_exporter - INFO - Successfully exported to output\gujral_output_p1_final_v2.xlsx
+2025-12-14 22:19:45,615 - __main__ - INFO - ============================================================
+2025-12-14 22:19:45,616 - __main__ - INFO - Processing Complete
+2025-12-14 22:19:45,617 - __main__ - INFO -   Village: Transliteradversion_Village Gujral - Jamabandi (1)
+2025-12-14 22:19:45,618 - __main__ - INFO -   Records: 7
+2025-12-14 22:19:45,618 - __main__ - INFO -   Avg Confidence: 90.2%
+2025-12-14 22:19:45,619 - __main__ - INFO -   Needs Review: 1 (14.3%)
+2025-12-14 22:19:45,619 - __main__ - INFO -   Output: output\gujral_output_p1_final_v2.xlsx
+2025-12-14 22:19:45,620 - __main__ - INFO - ============================================================
+2025-12-14 22:19:45,621 - __main__ - INFO - === Performance Summary ===
+2025-12-14 22:19:45,622 - __main__ - INFO - export_excel: count=1, mean=0.171s, min=0.171s, max=0.171s
+2025-12-14 22:19:45,623 - __main__ - INFO - extract_metadata: count=1, mean=1.289s, min=1.289s, max=1.289s
+2025-12-14 22:19:45,624 - __main__ - INFO - extract_tables: count=1, mean=2.191s, min=2.191s, max=2.191s
+2025-12-14 22:19:45,626 - __main__ - INFO - process_table_page_1: count=1, mean=0.035s, min=0.035s, max=0.035s
+2025-12-14 22:32:40,410 - src.exporters.excel_exporter - INFO - Excel exporter initialized
+2025-12-14 22:32:40,411 - src.main - WARNING - LLM initialization failed: OpenAI API key not configured. Continuing without LLM support.
+2025-12-14 22:32:40,411 - src.main - INFO - Jamabandi Pipeline initialized successfully
+2025-12-14 22:32:40,412 - src.main - INFO - Starting processing: C:\Users\piyus\AppData\Local\Temp\tmpraj325de.pdf
+2025-12-14 22:32:40,772 - src.main - INFO - Village: Tmpraj325De, District: Unknown
+2025-12-14 22:35:53,882 - src.main - INFO - Extracted 258 tables
+2025-12-14 22:35:53,883 - src.main - INFO - Processing page 1 (accuracy: 98.7%)
+2025-12-14 22:35:53,913 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=48, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,918 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=162, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,921 - src.main - ERROR - Error processing row 12: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1217, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,923 - src.main - INFO - Extracted 7 records from page 1
+2025-12-14 22:35:53,924 - src.main - INFO - Processing page 2 (accuracy: 98.1%)
+2025-12-14 22:35:53,926 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=199, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,927 - src.main - ERROR - Error processing row 6: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=171, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,930 - src.main - INFO - Extracted 4 records from page 2
+2025-12-14 22:35:53,931 - src.main - INFO - Processing page 3 (accuracy: 98.6%)
+2025-12-14 22:35:53,936 - src.main - INFO - Extracted 5 records from page 3
+2025-12-14 22:35:53,936 - src.main - INFO - Processing page 4 (accuracy: 95.4%)
+2025-12-14 22:35:53,938 - src.main - INFO - Extracted 0 records from page 4
+2025-12-14 22:35:53,938 - src.main - INFO - Processing page 5 (accuracy: 100.0%)
+2025-12-14 22:35:53,938 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:53,944 - src.main - INFO - Extracted 0 records from page 5
+2025-12-14 22:35:53,944 - src.main - INFO - Processing page 5 (accuracy: 98.5%)
+2025-12-14 22:35:53,946 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=13114, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,951 - src.main - INFO - Extracted 6 records from page 5
+2025-12-14 22:35:53,951 - src.main - INFO - Processing page 5 (accuracy: 100.0%)
+2025-12-14 22:35:53,953 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:53,955 - src.main - INFO - Extracted 0 records from page 5
+2025-12-14 22:35:53,955 - src.main - INFO - Processing page 6 (accuracy: 96.8%)
+2025-12-14 22:35:53,959 - src.main - INFO - Extracted 2 records from page 6
+2025-12-14 22:35:53,959 - src.main - INFO - Processing page 7 (accuracy: 99.0%)
+2025-12-14 22:35:53,964 - src.main - ERROR - Error processing row 5: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=80, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,967 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=182, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,971 - src.main - ERROR - Error processing row 16: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=172, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,973 - src.main - INFO - Extracted 13 records from page 7
+2025-12-14 22:35:53,973 - src.main - INFO - Processing page 7 (accuracy: 100.0%)
+2025-12-14 22:35:53,974 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:53,982 - src.main - INFO - Extracted 0 records from page 7
+2025-12-14 22:35:53,982 - src.main - INFO - Processing page 7 (accuracy: 100.0%)
+2025-12-14 22:35:53,982 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:53,985 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,986 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,987 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,987 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,988 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,989 - src.main - ERROR - Error processing row 7: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,990 - src.main - ERROR - Error processing row 8: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,991 - src.main - ERROR - Error processing row 9: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,992 - src.main - ERROR - Error processing row 10: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,992 - src.main - ERROR - Error processing row 11: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:53,993 - src.main - INFO - Extracted 0 records from page 7
+2025-12-14 22:35:53,993 - src.main - INFO - Processing page 8 (accuracy: 97.0%)
+2025-12-14 22:35:53,994 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=30, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:53,996 - src.main - INFO - Extracted 1 records from page 8
+2025-12-14 22:35:53,996 - src.main - INFO - Processing page 9 (accuracy: 98.4%)
+2025-12-14 22:35:54,001 - src.main - INFO - Extracted 5 records from page 9
+2025-12-14 22:35:54,001 - src.main - INFO - Processing page 10 (accuracy: 97.9%)
+2025-12-14 22:35:54,006 - src.main - INFO - Extracted 4 records from page 10
+2025-12-14 22:35:54,006 - src.main - INFO - Processing page 11 (accuracy: 97.9%)
+2025-12-14 22:35:54,009 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=819, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,012 - src.main - INFO - Extracted 3 records from page 11
+2025-12-14 22:35:54,012 - src.main - INFO - Processing page 12 (accuracy: 99.0%)
+2025-12-14 22:35:54,014 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1411, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,015 - src.main - ERROR - Error processing row 5: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1153, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,017 - src.main - ERROR - Error processing row 7: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=112, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,019 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=8218, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,020 - src.main - ERROR - Error processing row 12: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=18952, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,022 - src.main - ERROR - Error processing row 14: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=160, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,024 - src.main - ERROR - Error processing row 18: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=62, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,025 - src.main - INFO - Extracted 12 records from page 12
+2025-12-14 22:35:54,025 - src.main - INFO - Processing page 12 (accuracy: 100.0%)
+2025-12-14 22:35:54,026 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,034 - src.main - INFO - Extracted 0 records from page 12
+2025-12-14 22:35:54,034 - src.main - INFO - Processing page 12 (accuracy: 100.0%)
+2025-12-14 22:35:54,035 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,035 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,037 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,037 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,038 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,038 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,039 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,039 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,040 - src.main - INFO - Extracted 0 records from page 12
+2025-12-14 22:35:54,041 - src.main - INFO - Processing page 13 (accuracy: 99.1%)
+2025-12-14 22:35:54,046 - src.main - INFO - Extracted 10 records from page 13
+2025-12-14 22:35:54,047 - src.main - INFO - Processing page 14 (accuracy: 96.8%)
+2025-12-14 22:35:54,050 - src.main - INFO - Extracted 2 records from page 14
+2025-12-14 22:35:54,050 - src.main - INFO - Processing page 15 (accuracy: 97.1%)
+2025-12-14 22:35:54,052 - src.main - INFO - Extracted 2 records from page 15
+2025-12-14 22:35:54,053 - src.main - INFO - Processing page 16 (accuracy: 98.5%)
+2025-12-14 22:35:54,060 - src.main - INFO - Extracted 0 records from page 16
+2025-12-14 22:35:54,060 - src.main - INFO - Processing page 16 (accuracy: 100.0%)
+2025-12-14 22:35:54,060 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,061 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,063 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,064 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,065 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,066 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,067 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,068 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,069 - src.main - ERROR - Error processing row 7: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,069 - src.main - ERROR - Error processing row 8: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,070 - src.main - ERROR - Error processing row 9: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,071 - src.main - INFO - Extracted 0 records from page 16
+2025-12-14 22:35:54,072 - src.main - INFO - Processing page 16 (accuracy: 100.0%)
+2025-12-14 22:35:54,072 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,077 - src.main - INFO - Extracted 0 records from page 16
+2025-12-14 22:35:54,077 - src.main - INFO - Processing page 17 (accuracy: 98.4%)
+2025-12-14 22:35:54,082 - src.main - INFO - Extracted 0 records from page 17
+2025-12-14 22:35:54,083 - src.main - INFO - Processing page 18 (accuracy: 98.3%)
+2025-12-14 22:35:54,088 - src.main - INFO - Extracted 0 records from page 18
+2025-12-14 22:35:54,088 - src.main - INFO - Processing page 19 (accuracy: 98.0%)
+2025-12-14 22:35:54,091 - src.main - INFO - Extracted 0 records from page 19
+2025-12-14 22:35:54,092 - src.main - INFO - Processing page 20 (accuracy: 98.2%)
+2025-12-14 22:35:54,097 - src.main - INFO - Extracted 0 records from page 20
+2025-12-14 22:35:54,097 - src.main - INFO - Processing page 21 (accuracy: 98.7%)
+2025-12-14 22:35:54,104 - src.main - INFO - Extracted 0 records from page 21
+2025-12-14 22:35:54,104 - src.main - INFO - Processing page 22 (accuracy: 98.7%)
+2025-12-14 22:35:54,107 - src.main - INFO - Extracted 0 records from page 22
+2025-12-14 22:35:54,108 - src.main - INFO - Processing page 23 (accuracy: 98.6%)
+2025-12-14 22:35:54,111 - src.main - INFO - Extracted 0 records from page 23
+2025-12-14 22:35:54,113 - src.main - INFO - Processing page 24 (accuracy: 97.7%)
+2025-12-14 22:35:54,117 - src.main - INFO - Extracted 0 records from page 24
+2025-12-14 22:35:54,117 - src.main - INFO - Processing page 25 (accuracy: 96.5%)
+2025-12-14 22:35:54,120 - src.main - INFO - Extracted 1 records from page 25
+2025-12-14 22:35:54,121 - src.main - INFO - Processing page 26 (accuracy: 96.3%)
+2025-12-14 22:35:54,123 - src.main - INFO - Extracted 1 records from page 26
+2025-12-14 22:35:54,123 - src.main - INFO - Processing page 27 (accuracy: 100.0%)
+2025-12-14 22:35:54,123 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,126 - src.main - INFO - Extracted 0 records from page 27
+2025-12-14 22:35:54,126 - src.main - INFO - Processing page 27 (accuracy: 98.6%)
+2025-12-14 22:35:54,131 - src.main - INFO - Extracted 7 records from page 27
+2025-12-14 22:35:54,132 - src.main - INFO - Processing page 27 (accuracy: 100.0%)
+2025-12-14 22:35:54,132 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,134 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,135 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,135 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,136 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,136 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,137 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,138 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,138 - src.main - INFO - Extracted 0 records from page 27
+2025-12-14 22:35:54,138 - src.main - INFO - Processing page 28 (accuracy: 98.8%)
+2025-12-14 22:35:54,142 - src.main - ERROR - Error processing row 7: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=120, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,147 - src.main - ERROR - Error processing row 14: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=178, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,148 - src.main - INFO - Extracted 10 records from page 28
+2025-12-14 22:35:54,148 - src.main - INFO - Processing page 29 (accuracy: 98.6%)
+2025-12-14 22:35:54,149 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=160, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,153 - src.main - INFO - Extracted 6 records from page 29
+2025-12-14 22:35:54,153 - src.main - INFO - Processing page 30 (accuracy: 100.0%)
+2025-12-14 22:35:54,155 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,155 - src.main - INFO - Extracted 0 records from page 30
+2025-12-14 22:35:54,157 - src.main - INFO - Processing page 30 (accuracy: 98.5%)
+2025-12-14 22:35:54,160 - src.main - INFO - Extracted 5 records from page 30
+2025-12-14 22:35:54,160 - src.main - INFO - Processing page 30 (accuracy: 100.0%)
+2025-12-14 22:35:54,160 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,162 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,164 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,165 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,165 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,166 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,166 - src.main - INFO - Extracted 0 records from page 30
+2025-12-14 22:35:54,167 - src.main - INFO - Processing page 31 (accuracy: 98.3%)
+2025-12-14 22:35:54,170 - src.main - INFO - Extracted 5 records from page 31
+2025-12-14 22:35:54,171 - src.main - INFO - Processing page 32 (accuracy: 98.3%)
+2025-12-14 22:35:54,174 - src.main - INFO - Extracted 5 records from page 32
+2025-12-14 22:35:54,174 - src.main - INFO - Processing page 33 (accuracy: 98.5%)
+2025-12-14 22:35:54,178 - src.main - INFO - Extracted 6 records from page 33
+2025-12-14 22:35:54,178 - src.main - INFO - Processing page 34 (accuracy: 98.5%)
+2025-12-14 22:35:54,183 - src.main - INFO - Extracted 6 records from page 34
+2025-12-14 22:35:54,183 - src.main - INFO - Processing page 35 (accuracy: 98.0%)
+2025-12-14 22:35:54,187 - src.main - INFO - Extracted 4 records from page 35
+2025-12-14 22:35:54,187 - src.main - INFO - Processing page 36 (accuracy: 99.0%)
+2025-12-14 22:35:54,191 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=612, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,193 - src.main - INFO - Extracted 8 records from page 36
+2025-12-14 22:35:54,193 - src.main - INFO - Processing page 36 (accuracy: 100.0%)
+2025-12-14 22:35:54,194 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,199 - src.main - INFO - Extracted 0 records from page 36
+2025-12-14 22:35:54,199 - src.main - INFO - Processing page 36 (accuracy: 100.0%)
+2025-12-14 22:35:54,199 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,201 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,201 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,202 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,203 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,204 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,204 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,205 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,206 - src.main - ERROR - Error processing row 7: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,206 - src.main - ERROR - Error processing row 8: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,206 - src.main - INFO - Extracted 0 records from page 36
+2025-12-14 22:35:54,206 - src.main - INFO - Processing page 37 (accuracy: 97.7%)
+2025-12-14 22:35:54,209 - src.main - INFO - Extracted 3 records from page 37
+2025-12-14 22:35:54,210 - src.main - INFO - Processing page 38 (accuracy: 100.0%)
+2025-12-14 22:35:54,210 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,216 - src.main - INFO - Extracted 0 records from page 38
+2025-12-14 22:35:54,216 - src.main - INFO - Processing page 38 (accuracy: 99.0%)
+2025-12-14 22:35:54,217 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=149, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,219 - src.main - ERROR - Error processing row 5: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=310, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,224 - src.main - INFO - Extracted 9 records from page 38
+2025-12-14 22:35:54,224 - src.main - INFO - Processing page 38 (accuracy: 100.0%)
+2025-12-14 22:35:54,224 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,225 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,226 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,227 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,228 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,229 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,230 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,231 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,232 - src.main - ERROR - Error processing row 7: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,233 - src.main - ERROR - Error processing row 8: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,233 - src.main - ERROR - Error processing row 9: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,234 - src.main - INFO - Extracted 0 records from page 38
+2025-12-14 22:35:54,234 - src.main - INFO - Processing page 39 (accuracy: 98.9%)
+2025-12-14 22:35:54,239 - src.main - INFO - Extracted 8 records from page 39
+2025-12-14 22:35:54,239 - src.main - INFO - Processing page 40 (accuracy: 98.4%)
+2025-12-14 22:35:54,242 - src.main - ERROR - Error processing row 6: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=137, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,244 - src.main - ERROR - Error processing row 8: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=9826, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,247 - src.main - INFO - Extracted 7 records from page 40
+2025-12-14 22:35:54,248 - src.main - INFO - Processing page 41 (accuracy: 98.4%)
+2025-12-14 22:35:54,253 - src.main - INFO - Extracted 0 records from page 41
+2025-12-14 22:35:54,254 - src.main - INFO - Processing page 41 (accuracy: 100.0%)
+2025-12-14 22:35:54,254 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,255 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,256 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,256 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,257 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,258 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,258 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,259 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,260 - src.main - ERROR - Error processing row 7: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,261 - src.main - ERROR - Error processing row 8: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,263 - src.main - ERROR - Error processing row 9: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,264 - src.main - ERROR - Error processing row 10: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,264 - src.main - ERROR - Error processing row 11: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,265 - src.main - INFO - Extracted 0 records from page 41
+2025-12-14 22:35:54,265 - src.main - INFO - Processing page 41 (accuracy: 100.0%)
+2025-12-14 22:35:54,265 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,271 - src.main - INFO - Extracted 0 records from page 41
+2025-12-14 22:35:54,271 - src.main - INFO - Processing page 42 (accuracy: 98.7%)
+2025-12-14 22:35:54,276 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=12268, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,276 - src.main - INFO - Extracted 0 records from page 42
+2025-12-14 22:35:54,277 - src.main - INFO - Processing page 43 (accuracy: 93.6%)
+2025-12-14 22:35:54,280 - src.main - INFO - Extracted 0 records from page 43
+2025-12-14 22:35:54,280 - src.main - INFO - Processing page 44 (accuracy: 100.0%)
+2025-12-14 22:35:54,281 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,284 - src.main - INFO - Extracted 0 records from page 44
+2025-12-14 22:35:54,284 - src.main - INFO - Processing page 44 (accuracy: 98.8%)
+2025-12-14 22:35:54,287 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=118, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,289 - src.main - ERROR - Error processing row 6: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=911, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,291 - src.main - INFO - Extracted 5 records from page 44
+2025-12-14 22:35:54,292 - src.main - INFO - Processing page 44 (accuracy: 100.0%)
+2025-12-14 22:35:54,292 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,293 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,294 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,294 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,296 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,297 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,298 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,299 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,299 - src.main - INFO - Extracted 0 records from page 44
+2025-12-14 22:35:54,299 - src.main - INFO - Processing page 45 (accuracy: 96.5%)
+2025-12-14 22:35:54,301 - src.main - INFO - Extracted 1 records from page 45
+2025-12-14 22:35:54,303 - src.main - INFO - Processing page 46 (accuracy: 96.9%)
+2025-12-14 22:35:54,305 - src.main - INFO - Extracted 2 records from page 46
+2025-12-14 22:35:54,306 - src.main - INFO - Processing page 47 (accuracy: 97.1%)
+2025-12-14 22:35:54,308 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1070, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,310 - src.main - INFO - Extracted 1 records from page 47
+2025-12-14 22:35:54,311 - src.main - INFO - Processing page 48 (accuracy: 97.5%)
+2025-12-14 22:35:54,314 - src.main - INFO - Extracted 3 records from page 48
+2025-12-14 22:35:54,315 - src.main - INFO - Processing page 49 (accuracy: 96.6%)
+2025-12-14 22:35:54,316 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1010, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,319 - src.main - INFO - Extracted 1 records from page 49
+2025-12-14 22:35:54,319 - src.main - INFO - Processing page 50 (accuracy: 98.7%)
+2025-12-14 22:35:54,323 - src.main - ERROR - Error processing row 8: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=7105, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,325 - src.main - INFO - Extracted 8 records from page 50
+2025-12-14 22:35:54,326 - src.main - INFO - Processing page 50 (accuracy: 100.0%)
+2025-12-14 22:35:54,326 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,330 - src.main - INFO - Extracted 0 records from page 50
+2025-12-14 22:35:54,330 - src.main - INFO - Processing page 50 (accuracy: 100.0%)
+2025-12-14 22:35:54,331 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,332 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,333 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,334 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,335 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,335 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,337 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,337 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,338 - src.main - INFO - Extracted 0 records from page 50
+2025-12-14 22:35:54,338 - src.main - INFO - Processing page 51 (accuracy: 98.6%)
+2025-12-14 22:35:54,341 - src.main - INFO - Extracted 6 records from page 51
+2025-12-14 22:35:54,342 - src.main - INFO - Processing page 52 (accuracy: 98.3%)
+2025-12-14 22:35:54,346 - src.main - INFO - Extracted 5 records from page 52
+2025-12-14 22:35:54,347 - src.main - INFO - Processing page 53 (accuracy: 100.0%)
+2025-12-14 22:35:54,348 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,351 - src.main - INFO - Extracted 0 records from page 53
+2025-12-14 22:35:54,352 - src.main - INFO - Processing page 53 (accuracy: 98.6%)
+2025-12-14 22:35:54,355 - src.main - INFO - Extracted 0 records from page 53
+2025-12-14 22:35:54,357 - src.main - INFO - Processing page 53 (accuracy: 100.0%)
+2025-12-14 22:35:54,357 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,358 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,359 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,359 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,360 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,361 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,362 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,364 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,364 - src.main - INFO - Extracted 0 records from page 53
+2025-12-14 22:35:54,364 - src.main - INFO - Processing page 54 (accuracy: 98.3%)
+2025-12-14 22:35:54,368 - src.main - INFO - Extracted 0 records from page 54
+2025-12-14 22:35:54,369 - src.main - INFO - Processing page 55 (accuracy: 98.2%)
+2025-12-14 22:35:54,372 - src.main - INFO - Extracted 0 records from page 55
+2025-12-14 22:35:54,372 - src.main - INFO - Processing page 56 (accuracy: 98.2%)
+2025-12-14 22:35:54,376 - src.main - INFO - Extracted 0 records from page 56
+2025-12-14 22:35:54,376 - src.main - INFO - Processing page 57 (accuracy: 98.1%)
+2025-12-14 22:35:54,381 - src.main - INFO - Extracted 0 records from page 57
+2025-12-14 22:35:54,382 - src.main - INFO - Processing page 58 (accuracy: 98.5%)
+2025-12-14 22:35:54,385 - src.main - INFO - Extracted 0 records from page 58
+2025-12-14 22:35:54,386 - src.main - INFO - Processing page 59 (accuracy: 98.3%)
+2025-12-14 22:35:54,391 - src.main - INFO - Extracted 0 records from page 59
+2025-12-14 22:35:54,391 - src.main - INFO - Processing page 60 (accuracy: 95.8%)
+2025-12-14 22:35:54,393 - src.main - INFO - Extracted 0 records from page 60
+2025-12-14 22:35:54,393 - src.main - INFO - Processing page 61 (accuracy: 96.7%)
+2025-12-14 22:35:54,396 - src.main - INFO - Extracted 1 records from page 61
+2025-12-14 22:35:54,397 - src.main - INFO - Processing page 62 (accuracy: 96.5%)
+2025-12-14 22:35:54,399 - src.main - INFO - Extracted 1 records from page 62
+2025-12-14 22:35:54,399 - src.main - INFO - Processing page 63 (accuracy: 96.5%)
+2025-12-14 22:35:54,401 - src.main - INFO - Extracted 1 records from page 63
+2025-12-14 22:35:54,401 - src.main - INFO - Processing page 64 (accuracy: 96.5%)
+2025-12-14 22:35:54,403 - src.main - INFO - Extracted 1 records from page 64
+2025-12-14 22:35:54,403 - src.main - INFO - Processing page 65 (accuracy: 96.5%)
+2025-12-14 22:35:54,405 - src.main - INFO - Extracted 1 records from page 65
+2025-12-14 22:35:54,405 - src.main - INFO - Processing page 66 (accuracy: 97.2%)
+2025-12-14 22:35:54,406 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=919, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,408 - src.main - INFO - Extracted 0 records from page 66
+2025-12-14 22:35:54,409 - src.main - INFO - Processing page 67 (accuracy: 96.5%)
+2025-12-14 22:35:54,411 - src.main - INFO - Extracted 1 records from page 67
+2025-12-14 22:35:54,412 - src.main - INFO - Processing page 68 (accuracy: 96.8%)
+2025-12-14 22:35:54,413 - src.main - INFO - Extracted 1 records from page 68
+2025-12-14 22:35:54,414 - src.main - INFO - Processing page 69 (accuracy: 96.7%)
+2025-12-14 22:35:54,416 - src.main - INFO - Extracted 1 records from page 69
+2025-12-14 22:35:54,416 - src.main - INFO - Processing page 70 (accuracy: 96.5%)
+2025-12-14 22:35:54,418 - src.main - INFO - Extracted 1 records from page 70
+2025-12-14 22:35:54,418 - src.main - INFO - Processing page 71 (accuracy: 96.7%)
+2025-12-14 22:35:54,420 - src.main - INFO - Extracted 1 records from page 71
+2025-12-14 22:35:54,420 - src.main - INFO - Processing page 72 (accuracy: 96.5%)
+2025-12-14 22:35:54,422 - src.main - INFO - Extracted 1 records from page 72
+2025-12-14 22:35:54,422 - src.main - INFO - Processing page 73 (accuracy: 96.5%)
+2025-12-14 22:35:54,425 - src.main - INFO - Extracted 1 records from page 73
+2025-12-14 22:35:54,425 - src.main - INFO - Processing page 74 (accuracy: 96.7%)
+2025-12-14 22:35:54,427 - src.main - INFO - Extracted 1 records from page 74
+2025-12-14 22:35:54,427 - src.main - INFO - Processing page 75 (accuracy: 96.5%)
+2025-12-14 22:35:54,430 - src.main - INFO - Extracted 1 records from page 75
+2025-12-14 22:35:54,430 - src.main - INFO - Processing page 76 (accuracy: 96.5%)
+2025-12-14 22:35:54,433 - src.main - INFO - Extracted 1 records from page 76
+2025-12-14 22:35:54,433 - src.main - INFO - Processing page 77 (accuracy: 96.7%)
+2025-12-14 22:35:54,435 - src.main - INFO - Extracted 1 records from page 77
+2025-12-14 22:35:54,435 - src.main - INFO - Processing page 78 (accuracy: 97.4%)
+2025-12-14 22:35:54,438 - src.main - INFO - Extracted 3 records from page 78
+2025-12-14 22:35:54,438 - src.main - INFO - Processing page 79 (accuracy: 96.8%)
+2025-12-14 22:35:54,440 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=149, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,442 - src.main - INFO - Extracted 0 records from page 79
+2025-12-14 22:35:54,443 - src.main - INFO - Processing page 80 (accuracy: 98.6%)
+2025-12-14 22:35:54,448 - src.main - INFO - Extracted 8 records from page 80
+2025-12-14 22:35:54,448 - src.main - INFO - Processing page 81 (accuracy: 100.0%)
+2025-12-14 22:35:54,449 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,453 - src.main - INFO - Extracted 0 records from page 81
+2025-12-14 22:35:54,453 - src.main - INFO - Processing page 81 (accuracy: 98.7%)
+2025-12-14 22:35:54,455 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=108, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,457 - src.main - INFO - Extracted 5 records from page 81
+2025-12-14 22:35:54,458 - src.main - INFO - Processing page 81 (accuracy: 100.0%)
+2025-12-14 22:35:54,458 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,459 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,460 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,460 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,461 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,462 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,462 - src.main - INFO - Extracted 0 records from page 81
+2025-12-14 22:35:54,462 - src.main - INFO - Processing page 82 (accuracy: 98.9%)
+2025-12-14 22:35:54,465 - src.main - ERROR - Error processing row 8: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=104, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,467 - src.main - ERROR - Error processing row 10: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=174, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,469 - src.main - INFO - Extracted 9 records from page 82
+2025-12-14 22:35:54,470 - src.main - INFO - Processing page 83 (accuracy: 98.8%)
+2025-12-14 22:35:54,476 - src.main - INFO - Extracted 8 records from page 83
+2025-12-14 22:35:54,476 - src.main - INFO - Processing page 84 (accuracy: 98.9%)
+2025-12-14 22:35:54,478 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=124161, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,482 - src.main - INFO - Extracted 5 records from page 84
+2025-12-14 22:35:54,482 - src.main - INFO - Processing page 85 (accuracy: 98.9%)
+2025-12-14 22:35:54,487 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=7144, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,488 - src.main - INFO - Extracted 7 records from page 85
+2025-12-14 22:35:54,490 - src.main - INFO - Processing page 86 (accuracy: 98.7%)
+2025-12-14 22:35:54,494 - src.main - INFO - Extracted 8 records from page 86
+2025-12-14 22:35:54,495 - src.main - INFO - Processing page 87 (accuracy: 98.9%)
+2025-12-14 22:35:54,499 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=130, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,501 - src.main - ERROR - Error processing row 13: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=96, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,505 - src.main - INFO - Extracted 12 records from page 87
+2025-12-14 22:35:54,505 - src.main - INFO - Processing page 88 (accuracy: 98.8%)
+2025-12-14 22:35:54,509 - src.main - INFO - Extracted 9 records from page 88
+2025-12-14 22:35:54,510 - src.main - INFO - Processing page 89 (accuracy: 98.8%)
+2025-12-14 22:35:54,515 - src.main - INFO - Extracted 8 records from page 89
+2025-12-14 22:35:54,515 - src.main - INFO - Processing page 90 (accuracy: 98.9%)
+2025-12-14 22:35:54,519 - src.main - INFO - Extracted 5 records from page 90
+2025-12-14 22:35:54,520 - src.main - INFO - Processing page 91 (accuracy: 98.9%)
+2025-12-14 22:35:54,523 - src.main - ERROR - Error processing row 7: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=164, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,526 - src.main - INFO - Extracted 9 records from page 91
+2025-12-14 22:35:54,526 - src.main - INFO - Processing page 92 (accuracy: 98.7%)
+2025-12-14 22:35:54,530 - src.main - ERROR - Error processing row 10: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=18600, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,532 - src.main - INFO - Extracted 8 records from page 92
+2025-12-14 22:35:54,532 - src.main - INFO - Processing page 93 (accuracy: 100.0%)
+2025-12-14 22:35:54,532 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,536 - src.main - INFO - Extracted 0 records from page 93
+2025-12-14 22:35:54,537 - src.main - INFO - Processing page 93 (accuracy: 98.7%)
+2025-12-14 22:35:54,540 - src.main - INFO - Extracted 7 records from page 93
+2025-12-14 22:35:54,541 - src.main - INFO - Processing page 93 (accuracy: 100.0%)
+2025-12-14 22:35:54,541 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,542 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,542 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,543 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,544 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,544 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,545 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,545 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,545 - src.main - INFO - Extracted 0 records from page 93
+2025-12-14 22:35:54,546 - src.main - INFO - Processing page 94 (accuracy: 98.5%)
+2025-12-14 22:35:54,548 - src.main - INFO - Extracted 5 records from page 94
+2025-12-14 22:35:54,549 - src.main - INFO - Processing page 95 (accuracy: 98.6%)
+2025-12-14 22:35:54,554 - src.main - INFO - Extracted 7 records from page 95
+2025-12-14 22:35:54,555 - src.main - INFO - Processing page 96 (accuracy: 98.3%)
+2025-12-14 22:35:54,558 - src.main - INFO - Extracted 5 records from page 96
+2025-12-14 22:35:54,559 - src.main - INFO - Processing page 97 (accuracy: 97.3%)
+2025-12-14 22:35:54,561 - src.main - INFO - Extracted 4 records from page 97
+2025-12-14 22:35:54,561 - src.main - INFO - Processing page 98 (accuracy: 96.6%)
+2025-12-14 22:35:54,602 - src.main - INFO - Extracted 1 records from page 98
+2025-12-14 22:35:54,602 - src.main - INFO - Processing page 99 (accuracy: 97.6%)
+2025-12-14 22:35:54,605 - src.main - INFO - Extracted 3 records from page 99
+2025-12-14 22:35:54,605 - src.main - INFO - Processing page 100 (accuracy: 94.2%)
+2025-12-14 22:35:54,608 - src.main - INFO - Extracted 0 records from page 100
+2025-12-14 22:35:54,608 - src.main - INFO - Processing page 101 (accuracy: 98.0%)
+2025-12-14 22:35:54,611 - src.main - INFO - Extracted 4 records from page 101
+2025-12-14 22:35:54,611 - src.main - INFO - Processing page 102 (accuracy: 98.8%)
+2025-12-14 22:35:54,617 - src.main - INFO - Extracted 11 records from page 102
+2025-12-14 22:35:54,618 - src.main - INFO - Processing page 103 (accuracy: 100.0%)
+2025-12-14 22:35:54,618 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,662 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,664 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,665 - src.main - INFO - Extracted 0 records from page 103
+2025-12-14 22:35:54,666 - src.main - INFO - Processing page 103 (accuracy: 98.8%)
+2025-12-14 22:35:54,667 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=15116181823195, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,670 - src.main - INFO - Extracted 9 records from page 103
+2025-12-14 22:35:54,671 - src.main - INFO - Processing page 103 (accuracy: 100.0%)
+2025-12-14 22:35:54,672 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,672 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,674 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,675 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,675 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,676 - src.main - INFO - Extracted 0 records from page 103
+2025-12-14 22:35:54,676 - src.main - INFO - Processing page 104 (accuracy: 98.4%)
+2025-12-14 22:35:54,679 - src.main - INFO - Extracted 10 records from page 104
+2025-12-14 22:35:54,680 - src.main - INFO - Processing page 105 (accuracy: 98.7%)
+2025-12-14 22:35:54,684 - src.main - INFO - Extracted 4 records from page 105
+2025-12-14 22:35:54,684 - src.main - INFO - Processing page 106 (accuracy: 98.9%)
+2025-12-14 22:35:54,688 - src.main - INFO - Extracted 9 records from page 106
+2025-12-14 22:35:54,688 - src.main - INFO - Processing page 107 (accuracy: 98.2%)
+2025-12-14 22:35:54,691 - src.main - INFO - Extracted 2 records from page 107
+2025-12-14 22:35:54,692 - src.main - INFO - Processing page 108 (accuracy: 95.4%)
+2025-12-14 22:35:54,693 - src.main - INFO - Extracted 0 records from page 108
+2025-12-14 22:35:54,694 - src.main - INFO - Processing page 109 (accuracy: 98.2%)
+2025-12-14 22:35:54,694 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1002, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,697 - src.main - INFO - Extracted 3 records from page 109
+2025-12-14 22:35:54,697 - src.main - INFO - Processing page 110 (accuracy: 96.7%)
+2025-12-14 22:35:54,699 - src.main - INFO - Extracted 1 records from page 110
+2025-12-14 22:35:54,699 - src.main - INFO - Processing page 111 (accuracy: 94.9%)
+2025-12-14 22:35:54,700 - src.main - INFO - Extracted 0 records from page 111
+2025-12-14 22:35:54,700 - src.main - INFO - Processing page 112 (accuracy: 98.6%)
+2025-12-14 22:35:54,706 - src.main - INFO - Extracted 2 records from page 112
+2025-12-14 22:35:54,707 - src.main - INFO - Processing page 113 (accuracy: 97.5%)
+2025-12-14 22:35:54,710 - src.main - INFO - Extracted 1 records from page 113
+2025-12-14 22:35:54,711 - src.main - INFO - Processing page 114 (accuracy: 100.0%)
+2025-12-14 22:35:54,711 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,715 - src.main - INFO - Extracted 0 records from page 114
+2025-12-14 22:35:54,716 - src.main - INFO - Processing page 114 (accuracy: 99.0%)
+2025-12-14 22:35:54,718 - src.main - ERROR - Error processing row 5: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=412, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,719 - src.main - ERROR - Error processing row 7: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=44, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,721 - src.main - ERROR - Error processing row 10: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1773, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,723 - src.main - ERROR - Error processing row 12: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=8101, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,725 - src.main - INFO - Extracted 11 records from page 114
+2025-12-14 22:35:54,726 - src.main - INFO - Processing page 114 (accuracy: 100.0%)
+2025-12-14 22:35:54,726 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,726 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,727 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,728 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,729 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,729 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,730 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,731 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,731 - src.main - INFO - Extracted 0 records from page 114
+2025-12-14 22:35:54,731 - src.main - INFO - Processing page 115 (accuracy: 98.4%)
+2025-12-14 22:35:54,735 - src.main - INFO - Extracted 5 records from page 115
+2025-12-14 22:35:54,735 - src.main - INFO - Processing page 116 (accuracy: 98.5%)
+2025-12-14 22:35:54,739 - src.main - INFO - Extracted 6 records from page 116
+2025-12-14 22:35:54,740 - src.main - INFO - Processing page 117 (accuracy: 98.3%)
+2025-12-14 22:35:54,742 - src.main - INFO - Extracted 5 records from page 117
+2025-12-14 22:35:54,743 - src.main - INFO - Processing page 118 (accuracy: 98.5%)
+2025-12-14 22:35:54,745 - src.main - INFO - Extracted 6 records from page 118
+2025-12-14 22:35:54,746 - src.main - INFO - Processing page 119 (accuracy: 95.4%)
+2025-12-14 22:35:54,747 - src.main - INFO - Extracted 0 records from page 119
+2025-12-14 22:35:54,747 - src.main - INFO - Processing page 120 (accuracy: 98.2%)
+2025-12-14 22:35:54,748 - src.main - INFO - Extracted 0 records from page 120
+2025-12-14 22:35:54,749 - src.main - INFO - Processing page 120 (accuracy: 100.0%)
+2025-12-14 22:35:54,749 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,749 - src.main - INFO - Extracted 0 records from page 120
+2025-12-14 22:35:54,751 - src.main - INFO - Processing page 121 (accuracy: 98.5%)
+2025-12-14 22:35:54,752 - src.main - ERROR - Error processing row 6: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1812, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,754 - src.main - ERROR - Error processing row 9: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=411, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,757 - src.main - INFO - Extracted 2 records from page 121
+2025-12-14 22:35:54,757 - src.main - INFO - Processing page 122 (accuracy: 98.6%)
+2025-12-14 22:35:54,760 - src.main - ERROR - Error processing row 11: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=103, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,762 - src.main - INFO - Extracted 9 records from page 122
+2025-12-14 22:35:54,762 - src.main - INFO - Processing page 123 (accuracy: 97.0%)
+2025-12-14 22:35:54,764 - src.main - INFO - Extracted 2 records from page 123
+2025-12-14 22:35:54,764 - src.main - INFO - Processing page 124 (accuracy: 98.3%)
+2025-12-14 22:35:54,768 - src.main - INFO - Extracted 0 records from page 124
+2025-12-14 22:35:54,768 - src.main - INFO - Processing page 124 (accuracy: 100.0%)
+2025-12-14 22:35:54,768 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,769 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,770 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,770 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,771 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,771 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,772 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,773 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,773 - src.main - INFO - Extracted 0 records from page 124
+2025-12-14 22:35:54,773 - src.main - INFO - Processing page 124 (accuracy: 100.0%)
+2025-12-14 22:35:54,773 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,776 - src.main - INFO - Extracted 0 records from page 124
+2025-12-14 22:35:54,776 - src.main - INFO - Processing page 125 (accuracy: 98.3%)
+2025-12-14 22:35:54,779 - src.main - INFO - Extracted 0 records from page 125
+2025-12-14 22:35:54,779 - src.main - INFO - Processing page 126 (accuracy: 98.2%)
+2025-12-14 22:35:54,784 - src.main - INFO - Extracted 0 records from page 126
+2025-12-14 22:35:54,784 - src.main - INFO - Processing page 127 (accuracy: 98.9%)
+2025-12-14 22:35:54,788 - src.main - INFO - Extracted 0 records from page 127
+2025-12-14 22:35:54,788 - src.main - INFO - Processing page 128 (accuracy: 98.5%)
+2025-12-14 22:35:54,794 - src.main - INFO - Extracted 0 records from page 128
+2025-12-14 22:35:54,795 - src.main - INFO - Processing page 129 (accuracy: 94.9%)
+2025-12-14 22:35:54,796 - src.main - INFO - Extracted 0 records from page 129
+2025-12-14 22:35:54,797 - src.main - INFO - Processing page 130 (accuracy: 98.3%)
+2025-12-14 22:35:54,800 - src.main - INFO - Extracted 0 records from page 130
+2025-12-14 22:35:54,800 - src.main - INFO - Processing page 130 (accuracy: 100.0%)
+2025-12-14 22:35:54,801 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,801 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,802 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,803 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,803 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,804 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,805 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,805 - src.main - INFO - Extracted 0 records from page 130
+2025-12-14 22:35:54,806 - src.main - INFO - Processing page 130 (accuracy: 100.0%)
+2025-12-14 22:35:54,806 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,808 - src.main - INFO - Extracted 0 records from page 130
+2025-12-14 22:35:54,808 - src.main - INFO - Processing page 131 (accuracy: 98.4%)
+2025-12-14 22:35:54,811 - src.main - INFO - Extracted 0 records from page 131
+2025-12-14 22:35:54,812 - src.main - INFO - Processing page 132 (accuracy: 98.3%)
+2025-12-14 22:35:54,817 - src.main - INFO - Extracted 0 records from page 132
+2025-12-14 22:35:54,817 - src.main - INFO - Processing page 133 (accuracy: 98.3%)
+2025-12-14 22:35:54,820 - src.main - INFO - Extracted 0 records from page 133
+2025-12-14 22:35:54,821 - src.main - INFO - Processing page 134 (accuracy: 98.8%)
+2025-12-14 22:35:54,824 - src.main - INFO - Extracted 0 records from page 134
+2025-12-14 22:35:54,825 - src.main - INFO - Processing page 135 (accuracy: 98.5%)
+2025-12-14 22:35:54,827 - src.main - INFO - Extracted 0 records from page 135
+2025-12-14 22:35:54,828 - src.main - INFO - Processing page 136 (accuracy: 97.9%)
+2025-12-14 22:35:54,832 - src.main - INFO - Extracted 0 records from page 136
+2025-12-14 22:35:54,832 - src.main - INFO - Processing page 137 (accuracy: 100.0%)
+2025-12-14 22:35:54,833 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,836 - src.main - INFO - Extracted 0 records from page 137
+2025-12-14 22:35:54,836 - src.main - INFO - Processing page 137 (accuracy: 98.7%)
+2025-12-14 22:35:54,840 - src.main - INFO - Extracted 0 records from page 137
+2025-12-14 22:35:54,840 - src.main - INFO - Processing page 137 (accuracy: 100.0%)
+2025-12-14 22:35:54,841 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,842 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,842 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,843 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,844 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,845 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,846 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,846 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,847 - src.main - INFO - Extracted 0 records from page 137
+2025-12-14 22:35:54,847 - src.main - INFO - Processing page 138 (accuracy: 97.1%)
+2025-12-14 22:35:54,849 - src.main - INFO - Extracted 0 records from page 138
+2025-12-14 22:35:54,851 - src.main - INFO - Processing page 139 (accuracy: 98.3%)
+2025-12-14 22:35:54,852 - src.main - INFO - Extracted 4 records from page 139
+2025-12-14 22:35:54,853 - src.main - INFO - Processing page 139 (accuracy: 100.0%)
+2025-12-14 22:35:54,853 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,854 - src.main - INFO - Extracted 0 records from page 139
+2025-12-14 22:35:54,855 - src.main - INFO - Processing page 140 (accuracy: 98.5%)
+2025-12-14 22:35:54,857 - src.main - INFO - Extracted 5 records from page 140
+2025-12-14 22:35:54,857 - src.main - INFO - Processing page 141 (accuracy: 95.4%)
+2025-12-14 22:35:54,859 - src.main - INFO - Extracted 0 records from page 141
+2025-12-14 22:35:54,859 - src.main - INFO - Processing page 142 (accuracy: 98.7%)
+2025-12-14 22:35:54,861 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=11180, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,863 - src.main - ERROR - Error processing row 5: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1180, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,866 - src.main - INFO - Extracted 10 records from page 142
+2025-12-14 22:35:54,867 - src.main - INFO - Processing page 143 (accuracy: 94.9%)
+2025-12-14 22:35:54,867 - src.main - INFO - Extracted 0 records from page 143
+2025-12-14 22:35:54,868 - src.main - INFO - Processing page 144 (accuracy: 98.4%)
+2025-12-14 22:35:54,869 - src.main - INFO - Extracted 0 records from page 144
+2025-12-14 22:35:54,870 - src.main - INFO - Processing page 145 (accuracy: 98.1%)
+2025-12-14 22:35:54,872 - src.main - ERROR - Error processing row 7: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=90, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,874 - src.main - INFO - Extracted 0 records from page 145
+2025-12-14 22:35:54,874 - src.main - INFO - Processing page 146 (accuracy: 96.4%)
+2025-12-14 22:35:54,876 - src.main - INFO - Extracted 0 records from page 146
+2025-12-14 22:35:54,876 - src.main - INFO - Processing page 147 (accuracy: 98.8%)
+2025-12-14 22:35:54,880 - src.main - INFO - Extracted 7 records from page 147
+2025-12-14 22:35:54,881 - src.main - INFO - Processing page 147 (accuracy: 100.0%)
+2025-12-14 22:35:54,881 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,883 - src.main - INFO - Extracted 0 records from page 147
+2025-12-14 22:35:54,884 - src.main - INFO - Processing page 147 (accuracy: 100.0%)
+2025-12-14 22:35:54,884 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,885 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,885 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,886 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,887 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,888 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,889 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,889 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,890 - src.main - INFO - Extracted 0 records from page 147
+2025-12-14 22:35:54,890 - src.main - INFO - Processing page 148 (accuracy: 98.7%)
+2025-12-14 22:35:54,894 - src.main - INFO - Extracted 6 records from page 148
+2025-12-14 22:35:54,894 - src.main - INFO - Processing page 149 (accuracy: 98.7%)
+2025-12-14 22:35:54,897 - src.main - INFO - Extracted 7 records from page 149
+2025-12-14 22:35:54,897 - src.main - INFO - Processing page 150 (accuracy: 98.8%)
+2025-12-14 22:35:54,903 - src.main - INFO - Extracted 8 records from page 150
+2025-12-14 22:35:54,903 - src.main - INFO - Processing page 151 (accuracy: 98.5%)
+2025-12-14 22:35:54,906 - src.main - ERROR - Error processing row 7: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=70, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,908 - src.main - INFO - Extracted 6 records from page 151
+2025-12-14 22:35:54,908 - src.main - INFO - Processing page 152 (accuracy: 97.0%)
+2025-12-14 22:35:54,910 - src.main - INFO - Extracted 1 records from page 152
+2025-12-14 22:35:54,911 - src.main - INFO - Processing page 153 (accuracy: 97.7%)
+2025-12-14 22:35:54,912 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=191, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,914 - src.main - INFO - Extracted 3 records from page 153
+2025-12-14 22:35:54,914 - src.main - INFO - Processing page 154 (accuracy: 98.9%)
+2025-12-14 22:35:54,915 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=216, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,920 - src.main - ERROR - Error processing row 13: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=110, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,922 - src.main - INFO - Extracted 9 records from page 154
+2025-12-14 22:35:54,922 - src.main - INFO - Processing page 155 (accuracy: 97.1%)
+2025-12-14 22:35:54,924 - src.main - INFO - Extracted 2 records from page 155
+2025-12-14 22:35:54,925 - src.main - INFO - Processing page 156 (accuracy: 97.3%)
+2025-12-14 22:35:54,926 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=719, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,927 - src.main - INFO - Extracted 0 records from page 156
+2025-12-14 22:35:54,927 - src.main - INFO - Processing page 157 (accuracy: 97.3%)
+2025-12-14 22:35:54,928 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=60, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,931 - src.main - INFO - Extracted 0 records from page 157
+2025-12-14 22:35:54,931 - src.main - INFO - Processing page 158 (accuracy: 96.5%)
+2025-12-14 22:35:54,933 - src.main - INFO - Extracted 1 records from page 158
+2025-12-14 22:35:54,933 - src.main - INFO - Processing page 159 (accuracy: 96.8%)
+2025-12-14 22:35:54,935 - src.main - INFO - Extracted 1 records from page 159
+2025-12-14 22:35:54,935 - src.main - INFO - Processing page 160 (accuracy: 96.5%)
+2025-12-14 22:35:54,937 - src.main - INFO - Extracted 1 records from page 160
+2025-12-14 22:35:54,937 - src.main - INFO - Processing page 161 (accuracy: 96.5%)
+2025-12-14 22:35:54,939 - src.main - INFO - Extracted 1 records from page 161
+2025-12-14 22:35:54,939 - src.main - INFO - Processing page 162 (accuracy: 96.5%)
+2025-12-14 22:35:54,941 - src.main - INFO - Extracted 1 records from page 162
+2025-12-14 22:35:54,941 - src.main - INFO - Processing page 163 (accuracy: 97.0%)
+2025-12-14 22:35:54,942 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=64, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,943 - src.main - INFO - Extracted 0 records from page 163
+2025-12-14 22:35:54,943 - src.main - INFO - Processing page 164 (accuracy: 96.8%)
+2025-12-14 22:35:54,945 - src.main - INFO - Extracted 1 records from page 164
+2025-12-14 22:35:54,945 - src.main - INFO - Processing page 165 (accuracy: 97.0%)
+2025-12-14 22:35:54,945 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=32, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,946 - src.main - INFO - Extracted 0 records from page 165
+2025-12-14 22:35:54,946 - src.main - INFO - Processing page 166 (accuracy: 96.5%)
+2025-12-14 22:35:54,948 - src.main - INFO - Extracted 1 records from page 166
+2025-12-14 22:35:54,948 - src.main - INFO - Processing page 167 (accuracy: 96.5%)
+2025-12-14 22:35:54,950 - src.main - INFO - Extracted 1 records from page 167
+2025-12-14 22:35:54,950 - src.main - INFO - Processing page 168 (accuracy: 97.0%)
+2025-12-14 22:35:54,950 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=54, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,953 - src.main - INFO - Extracted 0 records from page 168
+2025-12-14 22:35:54,953 - src.main - INFO - Processing page 169 (accuracy: 96.5%)
+2025-12-14 22:35:54,954 - src.main - INFO - Extracted 1 records from page 169
+2025-12-14 22:35:54,955 - src.main - INFO - Processing page 170 (accuracy: 96.6%)
+2025-12-14 22:35:54,956 - src.main - INFO - Extracted 0 records from page 170
+2025-12-14 22:35:54,956 - src.main - INFO - Processing page 171 (accuracy: 96.6%)
+2025-12-14 22:35:54,957 - src.main - INFO - Extracted 1 records from page 171
+2025-12-14 22:35:54,957 - src.main - INFO - Processing page 172 (accuracy: 96.5%)
+2025-12-14 22:35:54,958 - src.main - INFO - Extracted 1 records from page 172
+2025-12-14 22:35:54,958 - src.main - INFO - Processing page 173 (accuracy: 98.3%)
+2025-12-14 22:35:54,959 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1518, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,960 - src.main - ERROR - Error processing row 5: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=155, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,961 - src.main - ERROR - Error processing row 7: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=1216, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,962 - src.main - INFO - Extracted 0 records from page 173
+2025-12-14 22:35:54,962 - src.main - INFO - Processing page 174 (accuracy: 98.0%)
+2025-12-14 22:35:54,964 - src.main - INFO - Extracted 4 records from page 174
+2025-12-14 22:35:54,964 - src.main - INFO - Processing page 175 (accuracy: 98.4%)
+2025-12-14 22:35:54,965 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=11133, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,968 - src.main - INFO - Extracted 3 records from page 175
+2025-12-14 22:35:54,968 - src.main - INFO - Processing page 176 (accuracy: 98.1%)
+2025-12-14 22:35:54,969 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=122, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:54,971 - src.main - INFO - Extracted 2 records from page 176
+2025-12-14 22:35:54,971 - src.main - INFO - Processing page 177 (accuracy: 98.9%)
+2025-12-14 22:35:54,981 - src.main - INFO - Extracted 10 records from page 177
+2025-12-14 22:35:54,982 - src.main - INFO - Processing page 177 (accuracy: 100.0%)
+2025-12-14 22:35:54,982 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:54,985 - src.main - INFO - Extracted 0 records from page 177
+2025-12-14 22:35:54,985 - src.main - INFO - Processing page 177 (accuracy: 100.0%)
+2025-12-14 22:35:54,987 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:54,988 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,989 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,990 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,991 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,992 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,993 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,994 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,994 - src.main - ERROR - Error processing row 7: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,995 - src.main - ERROR - Error processing row 8: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,996 - src.main - ERROR - Error processing row 9: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:54,996 - src.main - INFO - Extracted 0 records from page 177
+2025-12-14 22:35:54,996 - src.main - INFO - Processing page 178 (accuracy: 97.6%)
+2025-12-14 22:35:54,999 - src.main - INFO - Extracted 3 records from page 178
+2025-12-14 22:35:54,999 - src.main - INFO - Processing page 179 (accuracy: 100.0%)
+2025-12-14 22:35:55,000 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:55,005 - src.main - INFO - Extracted 0 records from page 179
+2025-12-14 22:35:55,006 - src.main - INFO - Processing page 179 (accuracy: 99.0%)
+2025-12-14 22:35:55,006 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=218, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,008 - src.main - ERROR - Error processing row 5: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=51, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,009 - src.main - ERROR - Error processing row 7: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=151386117, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,012 - src.main - INFO - Extracted 20 records from page 179
+2025-12-14 22:35:55,012 - src.main - INFO - Processing page 179 (accuracy: 100.0%)
+2025-12-14 22:35:55,013 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:55,014 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,015 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,016 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,017 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,018 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,018 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,019 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,020 - src.main - INFO - Extracted 0 records from page 179
+2025-12-14 22:35:55,020 - src.main - INFO - Processing page 180 (accuracy: 98.7%)
+2025-12-14 22:35:55,025 - src.main - INFO - Extracted 8 records from page 180
+2025-12-14 22:35:55,025 - src.main - INFO - Processing page 181 (accuracy: 98.8%)
+2025-12-14 22:35:55,029 - src.main - INFO - Extracted 8 records from page 181
+2025-12-14 22:35:55,030 - src.main - INFO - Processing page 182 (accuracy: 98.7%)
+2025-12-14 22:35:55,035 - src.main - INFO - Extracted 8 records from page 182
+2025-12-14 22:35:55,035 - src.main - INFO - Processing page 183 (accuracy: 98.8%)
+2025-12-14 22:35:55,036 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=812, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,040 - src.main - INFO - Extracted 7 records from page 183
+2025-12-14 22:35:55,040 - src.main - INFO - Processing page 184 (accuracy: 98.8%)
+2025-12-14 22:35:55,045 - src.main - INFO - Extracted 9 records from page 184
+2025-12-14 22:35:55,045 - src.main - INFO - Processing page 185 (accuracy: 98.8%)
+2025-12-14 22:35:55,050 - src.main - INFO - Extracted 9 records from page 185
+2025-12-14 22:35:55,050 - src.main - INFO - Processing page 186 (accuracy: 99.0%)
+2025-12-14 22:35:55,053 - src.main - ERROR - Error processing row 6: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=92, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,055 - src.main - ERROR - Error processing row 10: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=91, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,056 - src.main - ERROR - Error processing row 12: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=2162, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,058 - src.main - INFO - Extracted 5 records from page 186
+2025-12-14 22:35:55,058 - src.main - INFO - Processing page 187 (accuracy: 96.8%)
+2025-12-14 22:35:55,059 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=72, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,061 - src.main - INFO - Extracted 0 records from page 187
+2025-12-14 22:35:55,061 - src.main - INFO - Processing page 188 (accuracy: 99.1%)
+2025-12-14 22:35:55,068 - src.main - INFO - Extracted 15 records from page 188
+2025-12-14 22:35:55,068 - src.main - INFO - Processing page 188 (accuracy: 100.0%)
+2025-12-14 22:35:55,069 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:55,072 - src.main - INFO - Extracted 0 records from page 188
+2025-12-14 22:35:55,073 - src.main - INFO - Processing page 188 (accuracy: 100.0%)
+2025-12-14 22:35:55,073 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:55,074 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,074 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,075 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,076 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,077 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,078 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,078 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,079 - src.main - ERROR - Error processing row 7: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,079 - src.main - ERROR - Error processing row 8: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,080 - src.main - ERROR - Error processing row 9: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,080 - src.main - ERROR - Error processing row 10: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,081 - src.main - ERROR - Error processing row 11: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,082 - src.main - ERROR - Error processing row 12: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,082 - src.main - INFO - Extracted 0 records from page 188
+2025-12-14 22:35:55,083 - src.main - INFO - Processing page 189 (accuracy: 98.9%)
+2025-12-14 22:35:55,087 - src.main - INFO - Extracted 6 records from page 189
+2025-12-14 22:35:55,088 - src.main - INFO - Processing page 190 (accuracy: 97.5%)
+2025-12-14 22:35:55,091 - src.main - INFO - Extracted 3 records from page 190
+2025-12-14 22:35:55,091 - src.main - INFO - Processing page 191 (accuracy: 97.4%)
+2025-12-14 22:35:55,092 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=181354, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,093 - src.main - INFO - Extracted 0 records from page 191
+2025-12-14 22:35:55,094 - src.main - INFO - Processing page 192 (accuracy: 97.9%)
+2025-12-14 22:35:55,096 - src.main - INFO - Extracted 0 records from page 192
+2025-12-14 22:35:55,097 - src.main - INFO - Processing page 193 (accuracy: 98.2%)
+2025-12-14 22:35:55,101 - src.main - INFO - Extracted 5 records from page 193
+2025-12-14 22:35:55,101 - src.main - INFO - Processing page 194 (accuracy: 96.7%)
+2025-12-14 22:35:55,102 - src.main - INFO - Extracted 0 records from page 194
+2025-12-14 22:35:55,103 - src.main - INFO - Processing page 195 (accuracy: 96.8%)
+2025-12-14 22:35:55,105 - src.main - INFO - Extracted 0 records from page 195
+2025-12-14 22:35:55,105 - src.main - INFO - Processing page 196 (accuracy: 98.5%)
+2025-12-14 22:35:55,110 - src.main - INFO - Extracted 7 records from page 196
+2025-12-14 22:35:55,111 - src.main - INFO - Processing page 197 (accuracy: 98.9%)
+2025-12-14 22:35:55,115 - src.main - INFO - Extracted 10 records from page 197
+2025-12-14 22:35:55,116 - src.main - INFO - Processing page 198 (accuracy: 97.4%)
+2025-12-14 22:35:55,118 - src.main - INFO - Extracted 3 records from page 198
+2025-12-14 22:35:55,118 - src.main - INFO - Processing page 199 (accuracy: 97.3%)
+2025-12-14 22:35:55,119 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=120, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,121 - src.main - INFO - Extracted 0 records from page 199
+2025-12-14 22:35:55,121 - src.main - INFO - Processing page 200 (accuracy: 97.0%)
+2025-12-14 22:35:55,124 - src.main - INFO - Extracted 2 records from page 200
+2025-12-14 22:35:55,125 - src.main - INFO - Processing page 201 (accuracy: 96.7%)
+2025-12-14 22:35:55,128 - src.main - INFO - Extracted 1 records from page 201
+2025-12-14 22:35:55,128 - src.main - INFO - Processing page 202 (accuracy: 97.1%)
+2025-12-14 22:35:55,130 - src.main - INFO - Extracted 1 records from page 202
+2025-12-14 22:35:55,130 - src.main - INFO - Processing page 203 (accuracy: 97.8%)
+2025-12-14 22:35:55,132 - src.main - ERROR - Error processing row 4: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=99, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,134 - src.main - INFO - Extracted 1 records from page 203
+2025-12-14 22:35:55,134 - src.main - INFO - Processing page 204 (accuracy: 97.2%)
+2025-12-14 22:35:55,137 - src.main - INFO - Extracted 1 records from page 204
+2025-12-14 22:35:55,137 - src.main - INFO - Processing page 205 (accuracy: 100.0%)
+2025-12-14 22:35:55,138 - src.main - WARNING - Only 8 columns found, using simplified mapping
+2025-12-14 22:35:55,141 - src.main - INFO - Extracted 0 records from page 205
+2025-12-14 22:35:55,141 - src.main - INFO - Processing page 205 (accuracy: 99.0%)
+2025-12-14 22:35:55,146 - src.main - INFO - Extracted 11 records from page 205
+2025-12-14 22:35:55,148 - src.main - INFO - Processing page 205 (accuracy: 100.0%)
+2025-12-14 22:35:55,148 - src.main - WARNING - Only 1 columns found, using simplified mapping
+2025-12-14 22:35:55,149 - src.main - ERROR - Error processing row 0: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,149 - src.main - ERROR - Error processing row 1: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,151 - src.main - ERROR - Error processing row 2: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,152 - src.main - ERROR - Error processing row 3: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,154 - src.main - ERROR - Error processing row 4: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,155 - src.main - ERROR - Error processing row 5: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,156 - src.main - ERROR - Error processing row 6: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,156 - src.main - ERROR - Error processing row 7: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,157 - src.main - ERROR - Error processing row 8: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,157 - src.main - ERROR - Error processing row 9: cannot access local variable 'area_obj' where it is not associated with a value
+2025-12-14 22:35:55,158 - src.main - INFO - Extracted 0 records from page 205
+2025-12-14 22:35:55,158 - src.main - INFO - Processing page 206 (accuracy: 98.9%)
+2025-12-14 22:35:55,163 - src.main - INFO - Extracted 8 records from page 206
+2025-12-14 22:35:55,163 - src.main - INFO - Processing page 207 (accuracy: 97.8%)
+2025-12-14 22:35:55,166 - src.main - ERROR - Error processing row 5: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=102, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,169 - src.main - INFO - Extracted 2 records from page 207
+2025-12-14 22:35:55,169 - src.main - INFO - Processing page 208 (accuracy: 97.2%)
+2025-12-14 22:35:55,171 - src.main - ERROR - Error processing row 3: 1 validation error for AreaInfo
+marla
+  Input should be less than or equal to 20 [type=less_than_equal, input_value=594, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/less_than_equal
+2025-12-14 22:35:55,174 - src.main - INFO - Extracted 0 records from page 208
+2025-12-14 22:35:55,176 - src.exporters.excel_exporter - INFO - Exporting 704 records to C:\Users\piyus\AppData\Local\Temp\output_20251214_223240.xlsx
+2025-12-14 22:35:55,923 - src.exporters.excel_exporter - INFO - Successfully exported to C:\Users\piyus\AppData\Local\Temp\output_20251214_223240.xlsx
+2025-12-14 22:35:55,924 - src.main - INFO - ============================================================
+2025-12-14 22:35:55,924 - src.main - INFO - Processing Complete
+2025-12-14 22:35:55,925 - src.main - INFO -   Village: Tmpraj325De
+2025-12-14 22:35:55,925 - src.main - INFO -   Records: 704
+2025-12-14 22:35:55,925 - src.main - INFO -   Avg Confidence: 60.3%
+2025-12-14 22:35:55,925 - src.main - INFO -   Needs Review: 463 (65.8%)
+2025-12-14 22:35:55,925 - src.main - INFO -   Output: C:\Users\piyus\AppData\Local\Temp\output_20251214_223240.xlsx
+2025-12-14 22:35:55,926 - src.main - INFO - ============================================================
+2025-12-14 22:35:55,926 - src.main - INFO - === Performance Summary ===
+2025-12-14 22:35:55,926 - src.main - INFO - export_excel: count=1, mean=0.747s, min=0.747s, max=0.747s
+2025-12-14 22:35:55,926 - src.main - INFO - extract_metadata: count=1, mean=0.360s, min=0.360s, max=0.360s
+2025-12-14 22:35:55,926 - src.main - INFO - extract_tables: count=1, mean=193.110s, min=193.110s, max=193.110s
+2025-12-14 22:35:55,927 - src.main - INFO - process_table_page_1: count=1, mean=0.041s, min=0.041s, max=0.041s
+2025-12-14 22:35:55,927 - src.main - INFO - process_table_page_10: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,928 - src.main - INFO - process_table_page_100: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,928 - src.main - INFO - process_table_page_101: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,928 - src.main - INFO - process_table_page_102: count=1, mean=0.008s, min=0.008s, max=0.008s
+2025-12-14 22:35:55,928 - src.main - INFO - process_table_page_103: count=3, mean=0.019s, min=0.005s, max=0.047s
+2025-12-14 22:35:55,929 - src.main - INFO - process_table_page_104: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,929 - src.main - INFO - process_table_page_105: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,929 - src.main - INFO - process_table_page_106: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,929 - src.main - INFO - process_table_page_107: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,930 - src.main - INFO - process_table_page_108: count=1, mean=0.001s, min=0.001s, max=0.001s
+2025-12-14 22:35:55,930 - src.main - INFO - process_table_page_109: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,930 - src.main - INFO - process_table_page_11: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,930 - src.main - INFO - process_table_page_110: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,930 - src.main - INFO - process_table_page_111: count=1, mean=0.001s, min=0.001s, max=0.001s
+2025-12-14 22:35:55,931 - src.main - INFO - process_table_page_112: count=1, mean=0.007s, min=0.007s, max=0.007s
+2025-12-14 22:35:55,931 - src.main - INFO - process_table_page_113: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,931 - src.main - INFO - process_table_page_114: count=3, mean=0.007s, min=0.006s, max=0.009s
+2025-12-14 22:35:55,932 - src.main - INFO - process_table_page_115: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,932 - src.main - INFO - process_table_page_116: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,932 - src.main - INFO - process_table_page_117: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,932 - src.main - INFO - process_table_page_118: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,932 - src.main - INFO - process_table_page_119: count=1, mean=0.001s, min=0.001s, max=0.001s
+2025-12-14 22:35:55,933 - src.main - INFO - process_table_page_12: count=3, mean=0.010s, min=0.007s, max=0.014s
+2025-12-14 22:35:55,933 - src.main - INFO - process_table_page_120: count=2, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,933 - src.main - INFO - process_table_page_121: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,933 - src.main - INFO - process_table_page_122: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,934 - src.main - INFO - process_table_page_123: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,934 - src.main - INFO - process_table_page_124: count=3, mean=0.004s, min=0.003s, max=0.005s
+2025-12-14 22:35:55,934 - src.main - INFO - process_table_page_125: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,934 - src.main - INFO - process_table_page_126: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,934 - src.main - INFO - process_table_page_127: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,935 - src.main - INFO - process_table_page_128: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,935 - src.main - INFO - process_table_page_129: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,935 - src.main - INFO - process_table_page_13: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,935 - src.main - INFO - process_table_page_130: count=3, mean=0.004s, min=0.003s, max=0.006s
+2025-12-14 22:35:55,935 - src.main - INFO - process_table_page_131: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,936 - src.main - INFO - process_table_page_132: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,936 - src.main - INFO - process_table_page_133: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,936 - src.main - INFO - process_table_page_134: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,936 - src.main - INFO - process_table_page_135: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,936 - src.main - INFO - process_table_page_136: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,936 - src.main - INFO - process_table_page_137: count=3, mean=0.005s, min=0.003s, max=0.007s
+2025-12-14 22:35:55,936 - src.main - INFO - process_table_page_138: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,937 - src.main - INFO - process_table_page_139: count=2, mean=0.003s, min=0.002s, max=0.004s
+2025-12-14 22:35:55,937 - src.main - INFO - process_table_page_14: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,937 - src.main - INFO - process_table_page_140: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,937 - src.main - INFO - process_table_page_141: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,937 - src.main - INFO - process_table_page_142: count=1, mean=0.008s, min=0.008s, max=0.008s
+2025-12-14 22:35:55,938 - src.main - INFO - process_table_page_143: count=1, mean=0.001s, min=0.001s, max=0.001s
+2025-12-14 22:35:55,938 - src.main - INFO - process_table_page_144: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,938 - src.main - INFO - process_table_page_145: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,938 - src.main - INFO - process_table_page_146: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,938 - src.main - INFO - process_table_page_147: count=3, mean=0.005s, min=0.003s, max=0.006s
+2025-12-14 22:35:55,938 - src.main - INFO - process_table_page_148: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,938 - src.main - INFO - process_table_page_149: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,938 - src.main - INFO - process_table_page_15: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,940 - src.main - INFO - process_table_page_150: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,940 - src.main - INFO - process_table_page_151: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,940 - src.main - INFO - process_table_page_152: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,940 - src.main - INFO - process_table_page_153: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,941 - src.main - INFO - process_table_page_154: count=1, mean=0.008s, min=0.008s, max=0.008s
+2025-12-14 22:35:55,941 - src.main - INFO - process_table_page_155: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,942 - src.main - INFO - process_table_page_156: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,943 - src.main - INFO - process_table_page_157: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,944 - src.main - INFO - process_table_page_158: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,944 - src.main - INFO - process_table_page_159: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,945 - src.main - INFO - process_table_page_16: count=3, mean=0.008s, min=0.006s, max=0.012s
+2025-12-14 22:35:55,945 - src.main - INFO - process_table_page_160: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,945 - src.main - INFO - process_table_page_161: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,946 - src.main - INFO - process_table_page_162: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,946 - src.main - INFO - process_table_page_163: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,947 - src.main - INFO - process_table_page_164: count=1, mean=0.001s, min=0.001s, max=0.001s
+2025-12-14 22:35:55,947 - src.main - INFO - process_table_page_165: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,947 - src.main - INFO - process_table_page_166: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,948 - src.main - INFO - process_table_page_167: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,948 - src.main - INFO - process_table_page_168: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,948 - src.main - INFO - process_table_page_169: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,949 - src.main - INFO - process_table_page_17: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,950 - src.main - INFO - process_table_page_170: count=1, mean=0.001s, min=0.001s, max=0.001s
+2025-12-14 22:35:55,950 - src.main - INFO - process_table_page_171: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,950 - src.main - INFO - process_table_page_172: count=1, mean=0.001s, min=0.001s, max=0.001s
+2025-12-14 22:35:55,951 - src.main - INFO - process_table_page_173: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,951 - src.main - INFO - process_table_page_174: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,951 - src.main - INFO - process_table_page_175: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,951 - src.main - INFO - process_table_page_176: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,952 - src.main - INFO - process_table_page_177: count=3, mean=0.008s, min=0.004s, max=0.011s
+2025-12-14 22:35:55,952 - src.main - INFO - process_table_page_178: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,952 - src.main - INFO - process_table_page_179: count=3, mean=0.007s, min=0.006s, max=0.008s
+2025-12-14 22:35:55,953 - src.main - INFO - process_table_page_18: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,953 - src.main - INFO - process_table_page_180: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,954 - src.main - INFO - process_table_page_181: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,954 - src.main - INFO - process_table_page_182: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,954 - src.main - INFO - process_table_page_183: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,955 - src.main - INFO - process_table_page_184: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,955 - src.main - INFO - process_table_page_185: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,955 - src.main - INFO - process_table_page_186: count=1, mean=0.008s, min=0.008s, max=0.008s
+2025-12-14 22:35:55,956 - src.main - INFO - process_table_page_187: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,956 - src.main - INFO - process_table_page_188: count=3, mean=0.008s, min=0.006s, max=0.010s
+2025-12-14 22:35:55,956 - src.main - INFO - process_table_page_189: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,957 - src.main - INFO - process_table_page_19: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,958 - src.main - INFO - process_table_page_190: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,958 - src.main - INFO - process_table_page_191: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,958 - src.main - INFO - process_table_page_192: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,959 - src.main - INFO - process_table_page_193: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,959 - src.main - INFO - process_table_page_194: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,959 - src.main - INFO - process_table_page_195: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,959 - src.main - INFO - process_table_page_196: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,960 - src.main - INFO - process_table_page_197: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,960 - src.main - INFO - process_table_page_198: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,960 - src.main - INFO - process_table_page_199: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,960 - src.main - INFO - process_table_page_2: count=1, mean=0.007s, min=0.007s, max=0.007s
+2025-12-14 22:35:55,961 - src.main - INFO - process_table_page_20: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,961 - src.main - INFO - process_table_page_200: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,961 - src.main - INFO - process_table_page_201: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,961 - src.main - INFO - process_table_page_202: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,961 - src.main - INFO - process_table_page_203: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,962 - src.main - INFO - process_table_page_204: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,962 - src.main - INFO - process_table_page_205: count=3, mean=0.007s, min=0.005s, max=0.010s
+2025-12-14 22:35:55,962 - src.main - INFO - process_table_page_206: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,962 - src.main - INFO - process_table_page_207: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,962 - src.main - INFO - process_table_page_208: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,963 - src.main - INFO - process_table_page_21: count=1, mean=0.007s, min=0.007s, max=0.007s
+2025-12-14 22:35:55,963 - src.main - INFO - process_table_page_22: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,963 - src.main - INFO - process_table_page_23: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,963 - src.main - INFO - process_table_page_24: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,963 - src.main - INFO - process_table_page_25: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,963 - src.main - INFO - process_table_page_26: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,964 - src.main - INFO - process_table_page_27: count=3, mean=0.005s, min=0.003s, max=0.007s
+2025-12-14 22:35:55,964 - src.main - INFO - process_table_page_28: count=1, mean=0.010s, min=0.010s, max=0.010s
+2025-12-14 22:35:55,964 - src.main - INFO - process_table_page_29: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,964 - src.main - INFO - process_table_page_3: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,964 - src.main - INFO - process_table_page_30: count=3, mean=0.004s, min=0.002s, max=0.007s
+2025-12-14 22:35:55,965 - src.main - INFO - process_table_page_31: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,965 - src.main - INFO - process_table_page_32: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,965 - src.main - INFO - process_table_page_33: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,965 - src.main - INFO - process_table_page_34: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,966 - src.main - INFO - process_table_page_35: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,966 - src.main - INFO - process_table_page_36: count=3, mean=0.006s, min=0.006s, max=0.007s
+2025-12-14 22:35:55,967 - src.main - INFO - process_table_page_37: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,967 - src.main - INFO - process_table_page_38: count=3, mean=0.008s, min=0.006s, max=0.010s
+2025-12-14 22:35:55,967 - src.main - INFO - process_table_page_39: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,968 - src.main - INFO - process_table_page_4: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,968 - src.main - INFO - process_table_page_40: count=1, mean=0.009s, min=0.009s, max=0.009s
+2025-12-14 22:35:55,968 - src.main - INFO - process_table_page_41: count=3, mean=0.008s, min=0.006s, max=0.011s
+2025-12-14 22:35:55,969 - src.main - INFO - process_table_page_42: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,969 - src.main - INFO - process_table_page_43: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,969 - src.main - INFO - process_table_page_44: count=3, mean=0.006s, min=0.004s, max=0.007s
+2025-12-14 22:35:55,969 - src.main - INFO - process_table_page_45: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,970 - src.main - INFO - process_table_page_46: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,971 - src.main - INFO - process_table_page_47: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,971 - src.main - INFO - process_table_page_48: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,971 - src.main - INFO - process_table_page_49: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,971 - src.main - INFO - process_table_page_5: count=3, mean=0.006s, min=0.004s, max=0.008s
+2025-12-14 22:35:55,972 - src.main - INFO - process_table_page_50: count=3, mean=0.006s, min=0.004s, max=0.008s
+2025-12-14 22:35:55,972 - src.main - INFO - process_table_page_51: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,972 - src.main - INFO - process_table_page_52: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,972 - src.main - INFO - process_table_page_53: count=3, mean=0.005s, min=0.005s, max=0.007s
+2025-12-14 22:35:55,973 - src.main - INFO - process_table_page_54: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,973 - src.main - INFO - process_table_page_55: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,973 - src.main - INFO - process_table_page_56: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,973 - src.main - INFO - process_table_page_57: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,974 - src.main - INFO - process_table_page_58: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,974 - src.main - INFO - process_table_page_59: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,974 - src.main - INFO - process_table_page_6: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,974 - src.main - INFO - process_table_page_60: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,975 - src.main - INFO - process_table_page_61: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,975 - src.main - INFO - process_table_page_62: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,975 - src.main - INFO - process_table_page_63: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,975 - src.main - INFO - process_table_page_64: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,976 - src.main - INFO - process_table_page_65: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,976 - src.main - INFO - process_table_page_66: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,976 - src.main - INFO - process_table_page_67: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,976 - src.main - INFO - process_table_page_68: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,976 - src.main - INFO - process_table_page_69: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,977 - src.main - INFO - process_table_page_7: count=3, mean=0.011s, min=0.009s, max=0.014s
+2025-12-14 22:35:55,977 - src.main - INFO - process_table_page_70: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,977 - src.main - INFO - process_table_page_71: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,977 - src.main - INFO - process_table_page_72: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,977 - src.main - INFO - process_table_page_73: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,978 - src.main - INFO - process_table_page_74: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,978 - src.main - INFO - process_table_page_75: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,978 - src.main - INFO - process_table_page_76: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,978 - src.main - INFO - process_table_page_77: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,978 - src.main - INFO - process_table_page_78: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,978 - src.main - INFO - process_table_page_79: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,979 - src.main - INFO - process_table_page_8: count=1, mean=0.003s, min=0.003s, max=0.003s
+2025-12-14 22:35:55,979 - src.main - INFO - process_table_page_80: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,979 - src.main - INFO - process_table_page_81: count=3, mean=0.005s, min=0.004s, max=0.005s
+2025-12-14 22:35:55,980 - src.main - INFO - process_table_page_82: count=1, mean=0.008s, min=0.008s, max=0.008s
+2025-12-14 22:35:55,980 - src.main - INFO - process_table_page_83: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,980 - src.main - INFO - process_table_page_84: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,980 - src.main - INFO - process_table_page_85: count=1, mean=0.008s, min=0.008s, max=0.008s
+2025-12-14 22:35:55,980 - src.main - INFO - process_table_page_86: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,981 - src.main - INFO - process_table_page_87: count=1, mean=0.010s, min=0.010s, max=0.010s
+2025-12-14 22:35:55,981 - src.main - INFO - process_table_page_88: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,981 - src.main - INFO - process_table_page_89: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,982 - src.main - INFO - process_table_page_9: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,982 - src.main - INFO - process_table_page_90: count=1, mean=0.005s, min=0.005s, max=0.005s
+2025-12-14 22:35:55,983 - src.main - INFO - process_table_page_91: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,983 - src.main - INFO - process_table_page_92: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,983 - src.main - INFO - process_table_page_93: count=3, mean=0.004s, min=0.004s, max=0.005s
+2025-12-14 22:35:55,983 - src.main - INFO - process_table_page_94: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,984 - src.main - INFO - process_table_page_95: count=1, mean=0.006s, min=0.006s, max=0.006s
+2025-12-14 22:35:55,984 - src.main - INFO - process_table_page_96: count=1, mean=0.004s, min=0.004s, max=0.004s
+2025-12-14 22:35:55,984 - src.main - INFO - process_table_page_97: count=1, mean=0.002s, min=0.002s, max=0.002s
+2025-12-14 22:35:55,984 - src.main - INFO - process_table_page_98: count=1, mean=0.041s, min=0.041s, max=0.041s
+2025-12-14 22:35:55,984 - src.main - INFO - process_table_page_99: count=1, mean=0.003s, min=0.003s, max=0.003s

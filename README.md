@@ -71,11 +71,23 @@ python -m src.main --input sample.pdf --output output.xlsx
 # Process specific pages
 python -m src.main --input sample.pdf --output output.xlsx --pages 1-5
 
-# Verbose logging
-python -m src.main --input sample.pdf --output output.xlsx -v
+#### **Manual Terminal Execution** (The "Hard" Way)
 
-# Use custom config
-python -m src.main --input sample.pdf --output output.xlsx --config custom_settings.yaml
+If you prefer typing commands manually in the terminal:
+
+**1. Frontend (Streamlit UI)**
+```powershell
+cd c:\jnkDocExtractor\jnkfarmerextractdemo
+.\venv\Scripts\activate
+streamlit run app.py
+```
+
+**2. Backend (CLI Pipeline)**
+```powershell
+cd c:\jnkDocExtractor\jnkfarmerextractdemo
+.\venv\Scripts\activate
+python -m src.main --input "TransliteradVersion_Village Gujral - Jamabandi (1).pdf" --output "output/manual_run.xlsx"
+```
 ```
 
 ## Architecture

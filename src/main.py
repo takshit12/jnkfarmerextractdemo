@@ -218,29 +218,38 @@ class JamabandiPipeline:
                 # But we should check if it has other data
                 
                 # Parse cultivator info (Column 5) with LLM fallback
-                cultivator_text = str(row.iloc[column_map.get('cultivator', 4)])
+                cult_col = column_map.get('cultivator')
+                cultivator_text = str(row.iloc[cult_col]) if cult_col is not None else ""
                 cultivator_info = self._parse_cultivator_with_fallback(cultivator_text)
                 
                 # Parse Khasra
-                khasra_hal = str(row.iloc[column_map.get('khasra_hal', 6)])
-                khasra_sabik = str(row.iloc[column_map.get('khasra_sabik', 7)]) if 'khasra_sabik' in column_map else None
+                khasra_hal_col = column_map.get('khasra_hal')
+                khasra_hal = str(row.iloc[khasra_hal_col]) if khasra_hal_col is not None else ""
+                
+                khasra_sabik_col = column_map.get('khasra_sabik')
+                khasra_sabik = str(row.iloc[khasra_sabik_col]) if khasra_sabik_col is not None else None
                 
                 # Combine Khasra if split
-                if khasra_sabik and khasra_sabik.strip():
+                if khasra_sabik and khasra_sabik.lower() != 'nan' and khasra_sabik.strip():
                     khasra_text = f"{khasra_hal}/{khasra_sabik}"
                 else:
                     khasra_text = khasra_hal
+                    
+                # Handle single column Khasra
+                if 'khasra' in column_map:
+                    khasra_text = str(row.iloc[column_map['khasra']])
                 
                 khasras = self.khasra_splitter.parse_khasra_numbers(khasra_text)
                 
                 # Parse Area
-                area_kanal = self._safe_int(row.iloc[column_map.get('area_kanal', 0)]) if 'area_kanal' in column_map else 0
-                area_marla = self._safe_int(row.iloc[column_map.get('area_marla', 0)]) if 'area_marla' in column_map else 0
-                area_type = str(row.iloc[column_map.get('area_type', 0)]) if 'area_type' in column_map else None
+                area_kanal = self._safe_int(row.iloc[column_map['area_kanal']]) if 'area_kanal' in column_map else 0
+                area_marla = self._safe_int(row.iloc[column_map['area_marla']]) if 'area_marla' in column_map else 0
+                area_type_col = column_map.get('area_type')
+                area_type = str(row.iloc[area_type_col]) if area_type_col is not None else None
                 
                 # Handle combined area column if not split
                 if 'area' in column_map:
-                    area_text = str(row.iloc[column_map.get('area')])
+                    area_text = str(row.iloc[column_map['area']])
                     areas = self.khasra_splitter.parse_areas(area_text)
                     # Use parsed area if available
                     if areas:
@@ -253,8 +262,11 @@ class JamabandiPipeline:
                     )
 
                 # Parse Mutation
-                mutation_type = str(row.iloc[column_map.get('mutation_type', 0)]) if 'mutation_type' in column_map else None
-                mutation_num = str(row.iloc[column_map.get('mutation_num', 0)]) if 'mutation_num' in column_map else None
+                mutation_type_col = column_map.get('mutation_type')
+                mutation_type = str(row.iloc[mutation_type_col]) if mutation_type_col is not None else None
+                
+                mutation_num_col = column_map.get('mutation_num')
+                mutation_num = str(row.iloc[mutation_num_col]) if mutation_num_col is not None else None
                 
                 mutation = None
                 if mutation_type or mutation_num:
@@ -263,6 +275,10 @@ class JamabandiPipeline:
                         number=mutation_num,
                         raw_text=f"{mutation_type} {mutation_num}".strip()
                     )
+
+                # Irrigation
+                irr_col = column_map.get('irrigation')
+                irrigation_text = str(row.iloc[irr_col]) if irr_col is not None else None
 
                 # Skip sum rows
                 if self.khasra_splitter.is_sum_row(row):
@@ -273,13 +289,16 @@ class JamabandiPipeline:
                     # For split rows, we might need to distribute area or keep it on the first one
                     # For now, assign to the first one or use the specific area object
                     
+                    nambardar_col = column_map.get('nambardar')
+                    malik_col = column_map.get('malik')
+                    
                     record = JamabandiRecord(
                         number_khevat=khevat,
                         number_khata=khata,
-                        nam_tarf_ya_patti=str(row.iloc[column_map.get('nambardar', 2)]) if column_map.get('nambardar') else None,
-                        nam_malik_meh_ahval=str(row.iloc[column_map.get('malik', 3)]) if column_map.get('malik') else None,
+                        nam_tarf_ya_patti=str(row.iloc[nambardar_col]) if nambardar_col is not None else None,
+                        nam_malik_meh_ahval=str(row.iloc[malik_col]) if malik_col is not None else None,
                         cultivator=cultivator_info,
-                        vasayil_abapashi=str(row.iloc[column_map.get('irrigation', 5)]) if column_map.get('irrigation') else None,
+                        vasayil_abapashi=irrigation_text,
                         khasra=KhasraInfo(hal=khasra.hal, sabik=khasra.sabik),
                         area=area_obj,
                         mutation=mutation,
@@ -376,6 +395,33 @@ class JamabandiPipeline:
         ]
         
         row_text = ' '.join(str(v).lower() for v in row.values)
+        
+                # Check for numeric column headers (1, 2, 3...)
+        numeric_count = 0
+        total_items = 0
+        has_common_names = False
+        
+        name_indicators = {'singh', 'ram', 'kaur', 'lal', 'deen', 'mohammed', 'khan'}
+        
+        for v in row.values:
+            val_str = str(v).strip().lower()
+            if val_str and val_str != 'nan':
+                total_items += 1
+                if val_str.isdigit() and int(val_str) < 30:
+                    numeric_count += 1
+                
+                # Check for name parts
+                if any(ind in val_str for ind in name_indicators):
+                    has_common_names = True
+        
+        # If it has names, it's definitely not a header
+        if has_common_names:
+            return False
+            
+        # Only treat as header if VERY high percentage of small numbers (like 1, 2, 3... 15)
+        if total_items > 0 and numeric_count / total_items > 0.9:
+            return True
+            
         return any(keyword in row_text for keyword in header_keywords)
     
     def _safe_int(self, value) -> int:

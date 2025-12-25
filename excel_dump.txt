@@ -1,0 +1,224 @@
+Total Rows: 343
+Columns: ['number_khevat', 'number_khata', 'nam_tarf_ya_patti', 'nam_malik_meh_ahval', 'cultivator_name', 'cultivator_parentage', 'cultivator_caste', 'cultivator_village', 'cultivator_ownership', 'vasayil_abapashi', 'khasra_hal', 'khasra_sabik', 'area_kanal', 'area_marla', 'kisam_zamin', 'lagan_details', 'mutalba_details', 'havala_intakal', 'kaifiyat', 'extraction_confidence', 'extraction_method', 'needs_review', 'page_number']
+
+--- First 20 Rows ---
+Row 0:
+  number_khevat: 1
+  number_khata: 1
+  nam_tarf_ya_patti: nan
+  cultivator_name: sahid singh
+  cultivator_parentage: S/o attar singh
+  khasra_hal: 156
+  area_kanal: 0
+  area_marla: 16
+  vasayil_abapashi: nan
+
+Row 1:
+  number_khevat: 1
+  number_khata: 3
+  nam_tarf_ya_patti: nan
+  cultivator_name: bajariyamulazam
+  cultivator_parentage: S/o na malum
+  khasra_hal: 347
+  area_kanal: 2
+  area_marla: 5
+  vasayil_abapashi: nan
+
+Row 2:
+  number_khevat: 1
+  number_khata: 4
+  nam_tarf_ya_patti: nan
+  cultivator_name: harnam singh
+  cultivator_parentage: S/o jamiat singh
+  khasra_hal: 362
+  area_kanal: 1
+  area_marla: 0
+  vasayil_abapashi: nan
+
+Row 3:
+  number_khevat: 1
+  number_khata: 5
+  nam_tarf_ya_patti: nan
+  cultivator_name: iqubal singh harbans singh manmohan singh
+  cultivator_parentage: S/o bachansingh
+  khasra_hal: 386
+  area_kanal: 4
+  area_marla: 8
+  vasayil_abapashi: nan
+
+Row 4:
+  number_khevat: 1
+  number_khata: 6
+  nam_tarf_ya_patti: nan
+  cultivator_name: iqubal singh
+  cultivator_parentage: S/o bachansingh
+  khasra_hal: 92
+  area_kanal: 3
+  area_marla: 18
+  vasayil_abapashi: nan
+
+Row 5:
+  number_khevat: 1
+  number_khata: 7
+  nam_tarf_ya_patti: nan
+  cultivator_name: iqubal singh
+  cultivator_parentage: S/o bachansingh
+  khasra_hal: 92
+  area_kanal: 1
+  area_marla: 0
+  vasayil_abapashi: nan
+
+Row 6:
+  number_khevat: 1
+  number_khata: 8
+  nam_tarf_ya_patti: nan
+  cultivator_name: dharam singh
+  cultivator_parentage: S/o chatar singh
+  khasra_hal: 362
+  area_kanal: 4
+  area_marla: 9
+  vasayil_abapashi: nan
+
+Row 7:
+  number_khevat: 2
+  number_khata: 9
+  nam_tarf_ya_patti: nan
+  cultivator_name: sahidoo singh
+  cultivator_parentage: S/o attar singh
+  khasra_hal: 154
+  area_kanal: 0
+  area_marla: 10
+  vasayil_abapashi: nan
+
+Row 8:
+  number_khevat: 2
+  number_khata: 11
+  nam_tarf_ya_patti: nan
+  cultivator_name: mahendu
+  cultivator_parentage: S/o rukun deen neki 2/3 dukhter gigaphagun 1/12 byuh hakam deen
+  khasra_hal: 93
+  area_kanal: 2
+  area_marla: 18
+  vasayil_abapashi: nan
+
+Row 9:
+  number_khevat: 2
+  number_khata: 12
+  nam_tarf_ya_patti: nan
+  cultivator_name: chin singh
+  cultivator_parentage: S/o gopal singh
+  khasra_hal: 93
+  area_kanal: 2
+  area_marla: 0
+  vasayil_abapashi: nan
+
+Row 10:
+  number_khevat: 2
+  number_khata: 13
+  nam_tarf_ya_patti: nan
+  cultivator_name: ullah rakka
+  cultivator_parentage: S/o rukun deen
+  khasra_hal: 93
+  area_kanal: 2
+  area_marla: 0
+  vasayil_abapashi: nan
+
+Row 11:
+  number_khevat: 3
+  number_khata: 14
+  nam_tarf_ya_patti: nan
+  cultivator_name: hardip singhpisar aasher singh kaum rajput lalotrasakindeh gair morosi
+  cultivator_parentage: S/o chatar singh
+  khasra_hal: 76
+  area_kanal: 10
+  area_marla: 8
+  vasayil_abapashi: nan
+
+Row 12:
+  number_khevat: 3
+  number_khata: 15
+  nam_tarf_ya_patti: nan
+  cultivator_name: amolak singh nirmal singh amiksingh
+  cultivator_parentage: S/o ramaan kaur byuhgunjan singh
+  khasra_hal: 69
+  area_kanal: 7
+  area_marla: 18
+  vasayil_abapashi: nan
+
+Row 13:
+  number_khevat: 3
+  number_khata: 16
+  nam_tarf_ya_patti: nan
+  cultivator_name: nirmal singh
+  cultivator_parentage: S/o ramaan kaur1/4 byuh gunjan singh
+  khasra_hal: 69
+  area_kanal: 3
+  area_marla: 5
+  vasayil_abapashi: nan
+
+Row 14:
+  number_khevat: 3
+  number_khata: 17
+  nam_tarf_ya_patti: nan
+  cultivator_name: surjeet singhpisar dilip singh kaum namalummorosi 3alhaf
+  cultivator_parentage: S/o gunjan singh
+  khasra_hal: 69
+  area_kanal: 0
+  area_marla: 10
+  vasayil_abapashi: nan
+
+Row 15:
+  number_khevat: 3
+  number_khata: 18
+  nam_tarf_ya_patti: nan
+  cultivator_name: mohinder kaur
+  cultivator_parentage: S/o chand mohan gupta vijay kumar 9/38pisar kaka ram
+  khasra_hal: 216
+  area_kanal: 1
+  area_marla: 9
+  vasayil_abapashi: nan
+
+Row 16:
+  number_khevat: 4
+  number_khata: 19
+  nam_tarf_ya_patti: nan
+  cultivator_name: makbuza mahkama kastodiyan
+  cultivator_parentage: nan
+  khasra_hal: 138
+  area_kanal: 0
+  area_marla: 9
+  vasayil_abapashi: nan
+
+Row 17:
+  number_khevat: 4
+  number_khata: 21
+  nam_tarf_ya_patti: nan
+  cultivator_name: bhan singh pisar a dasingh kaum brahman sukh sakindehgair morosi
+  cultivator_parentage: S/o sant ram
+  khasra_hal: 265
+  area_kanal: 0
+  area_marla: 4
+  vasayil_abapashi: nan
+
+Row 18:
+  number_khevat: 4
+  number_khata: 22
+  nam_tarf_ya_patti: nan
+  cultivator_name: ratan singh pisar atamasingh kaum brahman sukh sakindehgair morosi
+  cultivator_parentage: S/o sant ram
+  khasra_hal: 265
+  area_kanal: 0
+  area_marla: 4
+  vasayil_abapashi: nan
+
+Row 19:
+  number_khevat: 4
+  number_khata: 23
+  nam_tarf_ya_patti: nan
+  cultivator_name: sehna singh pisar sundar singh kaumbrahman sukh sakindeh gair morosi
+  cultivator_parentage: S/o chiragdeen
+  khasra_hal: 265
+  area_kanal: 0
+  area_marla: 5
+  vasayil_abapashi: nan
+

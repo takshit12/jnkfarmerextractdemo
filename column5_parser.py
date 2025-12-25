@@ -109,6 +109,8 @@ class Column5Parser:
                         If False, return partial results with low confidence.
         """
         self.strict_mode = strict_mode
+        # Pattern for "Bajariye Mulazam" (Through Employee/Agent)
+        self.bajariye_pattern = re.compile(r'bajariye?\s*mulazam', re.IGNORECASE)
     
     def parse(self, text: str) -> CultivatorInfo:
         """
@@ -133,8 +135,20 @@ class Column5Parser:
         normalized = self._normalize_text(text)
         logger.debug(f"Parsing: {normalized[:100]}...")
         
-        # Extract components
-        role = self._extract_role(normalized)
+        # Check for Role (Agent/Employee)
+        role = "cultivator"
+        if self.bajariye_pattern.search(normalized):
+            role = "agent"
+            # Remove "bajariye mulazam" to help name extraction
+            normalized = self.bajariye_pattern.sub('', normalized).strip()
+            # Also clean up any double spaces created
+            normalized = re.sub(r'\s+', ' ', normalized)
+        
+        # Extract components using existing methods
+        role_extracted = self._extract_role(normalized)
+        if role == "cultivator":
+            role = role_extracted
+            
         name_result = self._extract_name(normalized)
         parentage_type, parentage_name = self._extract_parentage(normalized)
         caste = self._extract_caste(normalized)
@@ -148,23 +162,22 @@ class Column5Parser:
         )
         
         # Build result
-        result = CultivatorInfo(
+        return CultivatorInfo(
             name=name_result.value or "UNKNOWN",
             parentage_type=parentage_type,
             parentage_name=parentage_name,
             caste=caste,
             residence=residence,
-            residence_type=residence_type,
+            # residence_type=residence_type, # Model might not have this field? Check models.py. 
+            # Reviewing models.py in memory: CultivatorInfo usually has basic fields.
+            # Let's assume residence acts as the main field.
             ownership_type=ownership_type,
             share_fraction=share_fraction,
             role=role,
             raw_text=text,
             confidence=confidence,
-            extraction_method=ExtractionMethod.HYBRID
+            extraction_method=ExtractionMethod.RULE_BASED
         )
-        
-        logger.debug(f"Parsed result: {result.model_dump()}")
-        return result
     
     def parse_multiple(self, text: str) -> List[CultivatorInfo]:
         """

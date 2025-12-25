@@ -37,6 +37,7 @@ class ExtractionMethod(str, Enum):
     PDFPLUMBER = "pdfplumber"
     LLM = "llm"
     HYBRID = "hybrid"
+    RULE_BASED = "rule_based"
 
 
 class CultivatorInfo(BaseModel):
